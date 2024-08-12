@@ -15,8 +15,8 @@
     <?php include "../sections/header.php" ?>
 
     <div class="max-w-7xl mx-auto p-4 md:p-6 lg:p-8 mt-4">
-        <h1 class="text-3xl font-bold mb-4">Calendrier du Programme</h1>
-        <p class="text-lg mb-4">Pour mettre en œuvre mes priorités en tant que Présidente de la COING, un calendrier
+        <h1 class="lg:text-6xl tracking-tight font-extrabold text-gray-900 text-3xl  mb-4">Calendrier du Programme</h1>
+        <p class="mb-4 font-semibold text-lg  lg:text-2xl leading-8 text-gray-600">Pour mettre en œuvre mes priorités en tant que Présidente de la COING, un calendrier
             structuré est essentiel. Il est divisé en objectifs sur trois périodes de temps : un premier temps (0-6
             mois), un deuxième temps (6-12 mois) et une troisième période de temps (1-2 ans).</p>
 
