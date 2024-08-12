@@ -27,12 +27,14 @@
     <section class="bg-white dark:bg-gray-900 mt-14">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                    Ensemble pour une COING d'impact et solidaire.                   
+                <h1
+                    class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                    Ensemble pour une COING d'impact et solidaire.
                 </h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                     Bienvenue sur le site officiel de la campagne de Diane Ndeuna pour la Présidence de la COING de
-                    l’OIF. Ensemble, pour une COING de solutions, unissons nos forces pour une Francophonie plus forte et
+                    l’OIF. Ensemble, pour une COING de solutions, unissons nos forces pour une Francophonie plus forte
+                    et
                     apaisée.</p>
                 <a href="index.php#actu"
                     class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Actualités
@@ -233,26 +235,29 @@
     <!--Galerie   section -->
 
 
-     <!--start vision -->
-     <div class="bg-white py-24  grid grid-cols-1 lg:grid-cols-2 gap-8 " id="vision">
+    <!--start vision -->
+    <div class="bg-white py-24  grid grid-cols-1 lg:grid-cols-2 gap-8 " id="vision">
         <div class="px-6 lg:px-8 ">
-            <img class=" lg:ml-4 rounded-md  shadow-xl" src="../assets/images/diana-profile-1.png" alt="coing-logo"/>
+            <img class=" lg:sticky lg:top-40 lg:ml-4 rounded-md  shadow-xl" src="../assets/images/diana-profile-1.png"
+                alt="coing-logo" />
         </div>
 
         <div class="mx-auto  max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
-                
-                <h2 class="mb-4 text-3xl lg:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                Ma vision pour la COING</h2>
+
+                <h2 class="mb-4 text-3xl lg:text-6xl text-salt_rivers-300 font-extrabold tracking-tight   dark:text-white">
+                    Ma vision pour la COING</h2>
                 <p class="mt-4 text-base  lg:text-2xl font-bold tracking-tight text-gray-900 sm:text-xl">Mes priorités
-                reposent sur trois axes principaux </p>
-                <p class="mt-6 font-semibold text-lg  lg:text-2xl leading-8 text-gray-600">J'aspire à faire de la COING une force
+                    reposent sur trois axes principaux </p>
+                <p class="mt-6 font-semibold text-lg  lg:text-2xl leading-8 text-gray-600">J'aspire à faire de la COING
+                    une force
                     motrice pour la Francophonie, en axant mon action sur trois piliers : Propositions concrètes et
-                    opportunités - Représentation efficace et synergies -  Ancrage dans la société civile francophone.
+                    opportunités - Représentation efficace et synergies - Ancrage dans la société civile francophone.
                 </p>
                 <div class="mt-6">
-                   
-                    <p class="mt-6 text-center  lg:text-2xl font-bold tracking-tight text-gray-900 sm:text-xl">1.Propositions
+
+                    <p class="mt-6 text-center lg:text-2xl font-bold tracking-tight text-dreams_spring-100 sm:text-xl">
+                        1.Propositions
                         concrètes
                         et opportunités </p>
                 </div>
@@ -351,7 +356,8 @@
                                         d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                 </svg>
                             </div>
-                            Organiser Le Grand Prix de la Société civile francophone pour encourager les innovations les plus
+                            Organiser Le Grand Prix de la Société civile francophone pour encourager les innovations les
+                            plus
                             audacieuses.
                         </dt>
                         <dd class="mt-2 text-base leading-7 text-gray-600"></dd>
@@ -363,11 +369,11 @@
 
             <div class="flex justify-center">
                 <button @click="showMorevision = !showMorevision" x-show="!showMorevision"
-                    class="bg-green-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                    class="bg-lust-400 hover:bg-lust-100 text-white font-bold py-2 px-4 rounded">
                     Voir plus
                 </button>
                 <button @click="showMorevision = !showMorevision" x-show="showMorevision"
-                    class="bg-green-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                    class="bg-lust-400 hover:bg-green-100 text-white font-bold py-2 px-4 rounded">
                     Voir Moins
                 </button>
             </div>
@@ -379,7 +385,7 @@
                 x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full">
 
                 <div class="mx-auto max-w-2xl lg:text-center">
-                    <p class="mt-2 text-center  font-bold tracking-tight text-gray-900 sm:text-xl">2.Représentation
+                    <p class="mt-2 text-center  font-bold tracking-tight text-dreams_spring-100 sm:text-xl">2.Représentation
                         efficace et synergies </p>
                 </div>
 
@@ -472,7 +478,7 @@
 
 
                 <div class="mx-auto max-w-2xl lg:text-center">
-                    <p class="mt-2 text-center  font-bold tracking-tight text-gray-900 sm:text-xl">3.Ancrage dans la
+                    <p class="mt-2 text-center  font-bold tracking-tight text-dreams_spring-100 sm:text-xl">3.Ancrage dans la
                         Société Civile Francophone </p>
                 </div>
 
@@ -613,7 +619,7 @@
                 </div>
 
             </div>
-            
+
 
         </div>
     </div>
@@ -624,7 +630,7 @@
     <section class="bg-white dark:bg-gray-900" id="realisation">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2 class="mb-4 text-3xl lg:text-6xl tracking-tight font-extrabold text-salt_rivers-300 dark:text-white">
                     Réalisations </h2>
                 <p class="font-semi-bold text-gray-500 sm:text-xl dark:text-gray-400">Guidée par les valeurs de
                     coopération,
@@ -788,10 +794,10 @@
     <section class="bg-white dark:bg-gray-900" id="actu">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2 class="mb-4 text-3xl lg:text-6xl tracking-tight font-extrabold text-salt_rivers-300 dark:text-white">
                     Actualités</h2>
-                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Actualités de la Campagne de Diane
-                    Ndeuna</p>
+                <p class="font-bold text-gray-500 sm:text-xl dark:text-gray-400">Actualités de la Campagne de Diane
+                    Ndeuna.</p>
             </div>
 
             <div class="swiper mySwiper">
@@ -1018,13 +1024,13 @@
     </section>
     <!--End actualité-->
 
-   
+
 
     <!--Temoignages -->
     <section class="py-24 ">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="mb-16 ">
-                <span class="text-2xl text-gray-500 font-medium text-center block mb-2">Témoignages </span>
+            <div class="mb-16">
+                <span class=" text-3xl lg:text-6xl text-salt_rivers-300 font-extrabold   text-center block mb-2">Témoignages </span>
                 <h2 class="text-xl text-center font-bold text-gray-900 ">Découvrez les témoignages de soutiens
                     influents et d'électeurs convaincus par la vision de Diane.</h2>
             </div>
@@ -1206,7 +1212,7 @@
     <!--Start Scroll to top -->
     <div x-data="{ isVisible: false }"
         x-init="window.addEventListener('scroll', () => { isVisible = window.scrollY > 100; })"
-        class="fixed bottom-6 right-6 z-50 text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+        class="fixed bottom-6 right-6 z-50 text-white bg-gradient-to-r from-funky_frog-400 via-funky_frog-500 to-funky_frog-100 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         x-show="isVisible" x-transition:enter="transition ease-out duration-300"
         x-transition:enter-start="opacity-0 transform translate-y-2"
         x-transition:enter-end="opacity-100 transform translate-y-0"
