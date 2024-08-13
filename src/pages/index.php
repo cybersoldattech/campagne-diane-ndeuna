@@ -50,11 +50,10 @@
                     Ma vision
                 </a>
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
 
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
                 <img class="  h-96 animate-infinite animate-duration-[6000ms] animate-ease-in  animate-bounce delay-150 duration-300 "
                     src="../assets/images/logo-coing-01.png" alt="coing-logo">
-
             </div>
         </div>
     </section>
@@ -81,6 +80,7 @@
                 <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
             </svg>
         </div>
+
         <div id="bio"
             class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
             <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 
@@ -132,16 +132,6 @@
                 <div class="lg:pr-4">
                     <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg toAnimate">
                         <div>
-                            <!-- <a @click="modelOpen =!modelOpen" href="javascript:void(0);"
-                                class="flex items-center justify-center px-3 py-2 space-x-2 text-sm tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-500 rounded-md dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:bg-indigo-700 hover:bg-indigo-600 focus:outline-none focus:bg-indigo-500 focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
-                                <span>Voir plus</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a> -->
                         </div>
                         <!-- <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Valeurs et Engagements .</h2>
                         <p class="mt-6">Guidée par les valeurs de coopération, de solidarité et de justice, Diane Ndeuna
@@ -245,7 +235,8 @@
         <div class="mx-auto  max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
 
-                <h2 class="mb-4 text-3xl lg:text-6xl text-salt_rivers-300 font-extrabold tracking-tight   dark:text-white">
+                <h2
+                    class="mb-4 text-3xl lg:text-6xl text-salt_rivers-300 font-extrabold tracking-tight   dark:text-white">
                     Ma vision pour la COING</h2>
                 <p class="mt-4 text-base  lg:text-2xl font-bold tracking-tight text-gray-900 sm:text-xl">Mes priorités
                     reposent sur trois axes principaux </p>
@@ -385,7 +376,8 @@
                 x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full">
 
                 <div class="mx-auto max-w-2xl lg:text-center">
-                    <p class="mt-2 text-center  font-bold tracking-tight text-dreams_spring-100 sm:text-xl">2.Représentation
+                    <p class="mt-2 text-center  font-bold tracking-tight text-dreams_spring-100 sm:text-xl">
+                        2.Représentation
                         efficace et synergies </p>
                 </div>
 
@@ -478,7 +470,8 @@
 
 
                 <div class="mx-auto max-w-2xl lg:text-center">
-                    <p class="mt-2 text-center  font-bold tracking-tight text-dreams_spring-100 sm:text-xl">3.Ancrage dans la
+                    <p class="mt-2 text-center  font-bold tracking-tight text-dreams_spring-100 sm:text-xl">3.Ancrage
+                        dans la
                         Société Civile Francophone </p>
                 </div>
 
@@ -630,7 +623,8 @@
     <section class="bg-white dark:bg-gray-900" id="realisation">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                <h2 class="mb-4 text-3xl lg:text-6xl tracking-tight font-extrabold text-salt_rivers-300 dark:text-white">
+                <h2
+                    class="mb-4 text-3xl lg:text-6xl tracking-tight font-extrabold text-salt_rivers-300 dark:text-white">
                     Réalisations </h2>
                 <p class="font-semi-bold text-gray-500 sm:text-xl dark:text-gray-400">Guidée par les valeurs de
                     coopération,
@@ -794,7 +788,8 @@
     <section class="bg-white dark:bg-gray-900" id="actu">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                <h2 class="mb-4 text-3xl lg:text-6xl tracking-tight font-extrabold text-salt_rivers-300 dark:text-white">
+                <h2
+                    class="mb-4 text-3xl lg:text-6xl tracking-tight font-extrabold text-salt_rivers-300 dark:text-white">
                     Actualités</h2>
                 <p class="font-bold text-gray-500 sm:text-xl dark:text-gray-400">Actualités de la Campagne de Diane
                     Ndeuna.</p>
@@ -1030,7 +1025,9 @@
     <section class="py-24 ">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mb-16">
-                <span class=" text-3xl lg:text-6xl text-salt_rivers-300 font-extrabold   text-center block mb-2">Témoignages </span>
+                <span
+                    class=" text-3xl lg:text-6xl text-salt_rivers-300 font-extrabold   text-center block mb-2">Témoignages
+                </span>
                 <h2 class="text-xl text-center font-bold text-gray-900 ">Découvrez les témoignages de soutiens
                     influents et d'électeurs convaincus par la vision de Diane.</h2>
             </div>
@@ -1232,127 +1229,58 @@
     <!--End Scroll to top -->
 
 
+
     <!--TODO MODAL-->
-    <div x-show="modelOpen" tabindex="-1" style="display:none;"
-        class="fixed top-0 left-0 right-0 z-50  w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
-        aria-labelledby="modal-title" role="dialog" aria-modal="true">
-        <div class="flex items-end justify-center min-h-screen px-4 text-center md:items-center sm:block sm:p-0">
+    <div x-show="modelOpen" class="fixed z-10 inset-0 flex items-center justify-center">
+        <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+        <div class="relative bg-white rounded-lg overflow-hidden shadow-xl max-w-screen-md w-full m-4"
+            x-transition:enter="transition ease-out duration-300 transform opacity-0 scale-95"
+            x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
+            x-transition:leave="transition ease-in duration-200 transform opacity-100 scale-100"
+            x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" x-cloak>
+            <!-- Modal panel -->
+            <div class="px-6 py-4">
+                <h3 class="text-lg leading-6 font-medium text-gray-900"> Biographie de Diane Ndeuna</h3>
+            </div>
+            <div class="prose max-w-screen-md p-6 overflow-y-auto"
+                style="max-height: 70vh; background-color: #fff; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);">
 
-            <div x-cloak x-show="modelOpen" x-transition:enter="transition ease-out duration-300 transform"
-                x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
-                x-transition:leave="transition ease-in duration-200 transform"
-                x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
-                x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                class="inline-block w-full max-w-xl p-8 my-20 overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl 2xl:max-w-2xl">
-                <div class="relative w-full max-w-4xl max-h-full">
-                    <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                        <h3 class="text-xl font-medium text-gray-900 dark:text-white">
-                            Large modal
-                        </h3>
-                        <button type="button" x-cloak @click="modelOpen = false" x-show="modelOpen"
-                            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                            data-modal-hide="large-modal">
-                            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 14 14">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                            </svg>
-                            <span class="sr-only">Close modal</span>
-                        </button>
-                    </div>
-                    <!-- Modal content -->
-                    <div class="relative bg-white rounded-lg shadow dark:bg-gray-700"
-                        style="overflow-y: auto;max-height: 32rem;">
+                <p class="mb-4">Diane Ndeuna est une leader dynamique et expérimentée dans le domaine des
+                    organisations de la société civile, tant au Cameroun qu'à l'international. En tant que
+                    Présidente exécutive de EDEN AFRICA, elle s'est distinguée par son engagement profond pour
+                    l'éducation, l'entrepreneuriat, et l'autonomisation des femmes, tout en portant une vision
+                    stratégique visant à renforcer l'impact des OSC dans l'espace francophone.</p>
 
-                        <!-- Modal body -->
-                        <div class="p-4 md:p-5 space-y-4 max-h-24 ">
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                With less than a month to go before the European Union enacts new consumer privacy laws
-                                for its
-                                citizens, companies around the world are updating their terms of service agreements to
-                                comply.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                            <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on
-                                May 25
-                                and is meant to ensure a common set of data rights in the European Union. It requires
-                                organizations to notify users as soon as possible of high-risk data breaches that could
-                                personally affect them.
-                            </p>
-                        </div>
-                        <!-- Modal footer -->
-                    </div>
-                    <div
-                        class="flex items-center p-4 md:p-5 space-x-3 ltr:space-x-reverse border-t border-gray-200 rounded-b dark:border-gray-600">
+                <p class="mb-4">Forte d'une expérience de plus de 20 ans, Diane a collaboré avec de nombreuses
+                    institutions
+                    publiques internationales et nationales, menant des initiatives concrètes pour promouvoir
+                    des causes telles que l'éducation, les droits humains, l'égalité des genres, et le
+                    développement durable. Son parcours témoigne de sa capacité à transformer des défis
+                    complexes en opportunités, à mobiliser des ressources, et à créer des synergies bénéfiques
+                    pour les OSC qu'elle représente.</p>
+                <p class="mb-4">Son leadership et son expertise ont été reconnus au plus haut niveau, notamment
+                    par le
+                    Ministère des Relations Extérieures du Cameroun, qui l'a nommée membre du Conseil
+                    Scientifique de la 44ème Conférence Ministérielle de la Francophonie en 2023. À cette
+                    occasion, elle a joué un rôle clé en facilitant les invitations pour les OING/ONG désireuses
+                    de participer à la cérémonie d'ouverture et en organisant le Forum Jeunesse et Société
+                    Civile francophone, rassemblant des participants en présentiel et en distanciel.</p>
+                <p class="mb-4">Parmi ses réalisations notables, Diane a également orchestré l'organisation de
+                    soirées de
+                    réseautage pour renforcer les synergies entre les OSC, participé à des événements
+                    internationaux comme la COP 28, et dirigé des formations en montage de projets et en
+                    recherche de financement pour plus de 60 acteurs de la société civile francophone. Elle a
+                    aussi collaboré étroitement avec l'OIF sur des initiatives telles que la régulation des
+                    plateformes pour l'information comme bien public.</p>
+                <p class="mb-4">Diane Ndeuna incarne un leadership visionnaire et inclusif, déterminé à faire de
+                    la COING une
+                    force motrice pour une Francophonie plus connectée et plus impactante.</p>
 
-                        <button x-cloak @click="modelOpen = false" data-modal-hide="large-modal" type="button"
-                            class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-red-400 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Decline</button>
-                    </div>
-                </div>
+            </div>
+            <div class="bg-gray-50 px-4 py-3 sm:px-6 flex align-items justify-end p-4 gap-4 flex-row">
+                <button @click="modelOpen = false" type="button"
+                class="inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-lust-200 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400  sm:w-auto sm:text-sm">
+                Fermer </button>
             </div>
         </div>
     </div>
