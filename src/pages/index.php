@@ -25,7 +25,8 @@
     <!-- Start Hero -->
 
     <section class="bg-white dark:bg-gray-900 mt-14">
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
+
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
                     class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -49,12 +50,14 @@
                     class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                     Ma vision
                 </a>
+
             </div>
 
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img class="  h-96 animate-infinite animate-duration-[6000ms] animate-ease-in  animate-bounce delay-150 duration-300 "
-                    src="../assets/images/logo-coing-01.png" alt="coing-logo">
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex w-full justify-center items-center mt-4 lg:ml-32">
+                <img class="animate-infinite animate-duration-[6000ms] animate-ease-in  animate-bounce delay-150 duration-300 "
+                    src="../assets/images/logo/logo.png" alt="coing-logo">
             </div>
+    
         </div>
     </section>
 
@@ -62,7 +65,7 @@
 
     <!-- About section -->
 
-    <div class="relative isolate overflow-hidden bg-white px-6 py-24 lg:overflow-visible lg:px-0">
+    <div class="relative isolate overflow-hidden bg-white px-6 py-16 lg:overflow-visible lg:px-0">
         <div class="absolute inset-0 -z-10 overflow-hidden">
             <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
                 aria-hidden="true">
@@ -154,7 +157,7 @@
                         class="swiper-slide  h-64 md:h-96
                     bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
                         <div class="rounded-full h-full flex items-center justify-center">
-                            <img src="../assets/images/galeries/1.png" class="max-h-full w-auto">
+                            <img src="../assets/images/galeries/14.jpg" class="max-h-full w-auto">
                         </div>
                     </div>
                     <div class="swiper-slide rounded-full h-64 md:h-96 ">
@@ -175,7 +178,7 @@
                         class="swiper-slide h-64 md:h-96
                      bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
                         <div class="h-full flex items-center justify-center">
-                            <img src="../assets/images/galeries/4.png" class="max-h-full w-auto">
+                            <img src="../assets/images/galeries/13.jpg" class="max-h-full w-auto">
                         </div>
                     </div>
                     <div class="swiper-slide h-64 md:h-96">
@@ -206,7 +209,7 @@
                         <div
                             class="h-full flex items-center justify-center
                          bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/8.png" class="max-h-full w-auto">
+                            <img src="../assets/images/galeries/12.jpg" class="max-h-full w-auto">
                         </div>
                     </div>
 
@@ -214,7 +217,7 @@
                         <div
                             class="h-full flex items-center justify-center
                          bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/9.png" class="max-h-full w-auto">
+                            <img src="../assets/images/galeries/11.jpg" class="max-h-full w-auto">
                         </div>
                     </div>
                 </div>
@@ -1209,7 +1212,7 @@
     <!--Start Scroll to top -->
     <div x-data="{ isVisible: false }"
         x-init="window.addEventListener('scroll', () => { isVisible = window.scrollY > 100; })"
-        class="fixed bottom-6 right-6 z-50 text-white bg-gradient-to-r from-funky_frog-400 via-funky_frog-500 to-funky_frog-100 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+        class="fixed bottom-6 right-6 z-10 text-white bg-gradient-to-r from-funky_frog-400 via-funky_frog-500 to-funky_frog-100 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         x-show="isVisible" x-transition:enter="transition ease-out duration-300"
         x-transition:enter-start="opacity-0 transform translate-y-2"
         x-transition:enter-end="opacity-100 transform translate-y-0"
@@ -1231,7 +1234,8 @@
 
 
     <!--TODO MODAL-->
-    <div x-show="modelOpen" class="fixed z-10 inset-0 flex items-center justify-center">
+    <div x-show="modelOpen" style="display:none;"class="fixed 
+        z-50 inset-0 flex items-center justify-center">
         <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
         <div class="relative bg-white rounded-lg overflow-hidden shadow-xl max-w-screen-md w-full m-4"
             x-transition:enter="transition ease-out duration-300 transform opacity-0 scale-95"
@@ -1279,8 +1283,8 @@
             </div>
             <div class="bg-gray-50 px-4 py-3 sm:px-6 flex align-items justify-end p-4 gap-4 flex-row">
                 <button @click="modelOpen = false" type="button"
-                class="inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-lust-200 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400  sm:w-auto sm:text-sm">
-                Fermer </button>
+                    class="inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-lust-200 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400  sm:w-auto sm:text-sm">
+                    Fermer </button>
             </div>
         </div>
     </div>
