@@ -29,7 +29,7 @@
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
                     class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                    Ensemble pour une COING d'impact et solidaire.
+                    Ensemble pour une COING d'impacts et de Solidarités.
                 </h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                     Bienvenue sur le site officiel de la campagne de Diane Ndeuna pour la Présidence de la COING de
