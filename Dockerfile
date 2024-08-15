@@ -1,8 +1,8 @@
 FROM php:7.4-apache
 
-WORKDIR /var/www/html
-
 COPY . /var/www/html/
+
+WORKDIR /var/www/html
 
 
 EXPOSE 80
