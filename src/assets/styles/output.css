@@ -1327,6 +1327,21 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-salt_rivers-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(166 199 222 / var(--tw-bg-opacity));
+}
+
+.bg-salt_rivers-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 144 188 / var(--tw-bg-opacity));
+}
+
+.bg-salt_rivers-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 221 236 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1650,6 +1665,36 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-funky_frog-400 {
+  --tw-text-opacity: 1;
+  color: rgb(177 210 128 / var(--tw-text-opacity));
+}
+
+.text-funky_frog-100 {
+  --tw-text-opacity: 1;
+  color: rgb(145 189 61 / var(--tw-text-opacity));
+}
+
+.text-salt_rivers-100 {
+  --tw-text-opacity: 1;
+  color: rgb(75 144 188 / var(--tw-text-opacity));
+}
+
+.text-lust-100 {
+  --tw-text-opacity: 1;
+  color: rgb(227 30 37 / var(--tw-text-opacity));
+}
+
+.text-salt_rivers-200 {
+  --tw-text-opacity: 1;
+  color: rgb(94 155 195 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1841,6 +1886,11 @@ html {
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-salt_rivers-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 188 216 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-gradient-to-br:hover {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -1939,6 +1989,10 @@ html {
   outline-color: #4f46e5;
 }
 
+.focus-visible\:outline-salt_rivers-600:focus-visible {
+  outline-color: #a6c7de;
+}
+
 .group:hover .group-hover\:text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1969,6 +2023,14 @@ html {
 
   .sm\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:h-12 {

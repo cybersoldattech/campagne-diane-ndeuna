@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link href="../assets/styles/style.css" rel="stylesheet">
-    <title>Campagne</title>
+    <?php include "../sections/meta_header.php" ?>
+    <title>Campagne:Home</title>
 </head>
 
 <body x-data="{ modelOpen: false , showMorevision:false }">
@@ -87,7 +88,8 @@
 
         <div id="bio"
             class="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-            <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 toAnimate">
+            <div
+                class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 toAnimate">
                 <div class="lg:pr-4">
                     <div class="lg:max-w-lg">
                         <p class="text-base font-semibold leading-7 text-indigo-600">À propos de Diane</p>
@@ -127,7 +129,7 @@
             </div>
             <div
                 class="p-12 -mt-12 -ml-8 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden toAnimate_2">
-                <img class="bg-gray-900 shadow-xl  rounded-xl ring-1 ring-gray-400/10"
+                <img class="bg-gray-900 shadow-xl rounded-xl ring-1 ring-gray-400/10"
                     src="../assets/images/profiles/1.png" alt="Diana Ndeuna profile">
             </div>
             <div
@@ -150,7 +152,7 @@
 
     <!--Galerie   section -->
     <div class="w-full bg-white">
-        <div class="max-w-full px-4 mx-auto  lg:px-8">
+        <div class="max-w-full px-4 mx-auto lg:px-8">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div
@@ -222,7 +224,7 @@
     <!--start vision -->
     <div class="grid grid-cols-1 gap-8 py-24 bg-white lg:grid-cols-2 " id="vision">
         <div class="px-6 lg:px-8 ">
-            <img class="rounded-md shadow-xl  lg:sticky lg:top-40 lg:ml-4" src="../assets/images/diana-profile-1.png"
+            <img class="rounded-md shadow-xl lg:sticky lg:top-40 lg:ml-4" src="../assets/images/diana-profile-1.png"
                 alt="coing-logo" />
         </div>
 
@@ -1020,7 +1022,7 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="mb-16">
                 <span
-                    class="block mb-2 text-3xl font-extrabold text-center  lg:text-6xl text-salt_rivers-300">Témoignages
+                    class="block mb-2 text-3xl font-extrabold text-center lg:text-6xl text-salt_rivers-300">Témoignages
                 </span>
                 <h2 class="text-xl font-bold text-center text-gray-900 ">Découvrez les témoignages de soutiens
                     influents et d'électeurs convaincus par la vision de Diane.</h2>
@@ -1201,25 +1203,7 @@
 
 
     <!--Start Scroll to top -->
-    <div x-data="{ isVisible: false }"
-        x-init="window.addEventListener('scroll', () => { isVisible = window.scrollY > 100; })"
-        class="fixed bottom-6 right-6 z-10 text-white bg-gradient-to-r from-funky_frog-400 via-funky_frog-500 to-funky_frog-100 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-        x-show="isVisible" x-transition:enter="transition ease-out duration-300"
-        x-transition:enter-start="opacity-0 transform translate-y-2"
-        x-transition:enter-end="opacity-100 transform translate-y-0"
-        x-transition:leave="transition ease-in duration-300"
-        x-transition:leave-start="opacity-100 transform translate-y-0"
-        x-transition:leave-end="opacity-0 transform translate-y-2">
-        <button title="Scroll to top" aria-label="Scroll to top"
-            @click="window.scrollTo({ top: 0, behavior: 'smooth' })">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M11.99 7.5 8.24 3.75m0 0L4.49 7.5m3.75-3.75v16.499h11.25" />
-            </svg>
-
-        </button>
-    </div>
+    <?php include "../sections/scroll.php" ?>
     <!--End Scroll to top -->
 
 
@@ -1284,7 +1268,7 @@
 
 </body>
 <!--Start  Footer-->
-<?php include "../sections/footer.php" ?>
+<?php include_once "../sections/footer.php" ?>
 <!--End footer  -->
 
 
