@@ -10,7 +10,7 @@
     <title>Campagne:Contact</title>
 </head>
 
-<body class="bg-white dark:bg-gray-900">
+<body class="bg-white "><!--dark:bg-gray-900-->
 
     <?php include "../sections/banner.php" ?>
     <?php include "../sections/header.php" ?>

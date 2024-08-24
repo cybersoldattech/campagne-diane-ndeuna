@@ -1,0 +1,18 @@
+name: Deploy Site on push
+on:
+  push:
+    branches:
+      - main
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get the latest code
+      uses: actions/checkout@v4
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.CAMPAGNE_TEST_SERVER }} #CAMPAGNE_PROD_SERVER
+        username: ${{ secrets.CAMPAGNE_TEST_USER }} #CAMPAGNE_PROD_USER
+        password: ${{ secrets.CAMPAGNE_TEST_PASS}} #CAMPAGNE_PROD_PASS
