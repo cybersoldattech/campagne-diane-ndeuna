@@ -17,9 +17,6 @@ jobs:
         username: ${{ secrets.CAMPAGNE_TEST_USER }} #CAMPAGNE_PROD_USER
         password: ${{ secrets.CAMPAGNE_TEST_PASS}} #CAMPAGNE_PROD_PASS
         exclude: |
-          **/.git*
-          **/.git*/**
-          **/.github*/**
           README.md
           LICENSE
           **/node_modules/**
