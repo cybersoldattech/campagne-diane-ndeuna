@@ -16,3 +16,17 @@ jobs:
         server: ${{ secrets.CAMPAGNE_TEST_SERVER }} #CAMPAGNE_PROD_SERVER
         username: ${{ secrets.CAMPAGNE_TEST_USER }} #CAMPAGNE_PROD_USER
         password: ${{ secrets.CAMPAGNE_TEST_PASS}} #CAMPAGNE_PROD_PASS
+        exclude: |
+          .git*
+          .github*
+          README.md
+          LICENSE
+          node_modules*
+          package-lock.json
+          package.json
+          README.md
+          tailwind.config.js
+          Dockerfile
+          docker-compose.yml
+          .gitignore
+          .dockerignore
