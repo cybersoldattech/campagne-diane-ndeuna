@@ -15,7 +15,7 @@ jobs:
       with:
         server: ${{ secrets.CAMPAGNE_TEST_SERVER }} #CAMPAGNE_PROD_SERVER
         username: ${{ secrets.CAMPAGNE_TEST_USER }} #CAMPAGNE_PROD_USER
-        password: ${{ secrets.CAMPAGNE_TEST_PASS}} #CAMPAGNE_PROD_PASS
+        password: ${{ secrets.CAMPAGNE_TEST_PASS}} #CAMPAGNE_PROD_PASS 
         exclude: |
           README.md
           LICENSE
