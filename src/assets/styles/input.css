@@ -1,4 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html { scroll-behavior: smooth; }
+
+@layer base {
+    @font-face {
+        font-family: 'monseratRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/MONTSERRAT-REGULAR.OTF) format('otf');
+    }
+    html {
+        font-family: "monseratRegular";
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+}

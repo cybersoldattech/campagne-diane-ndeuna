@@ -21,5 +21,5 @@ npm install
 npm run watch-css or npx tailwindcss -i ./src/assets/styles/input.css -o ./src/assets/styles/output.css --watch
 ```
 
-##Screenshots
+## Screenshots
 <img src="./src/assets/images/readme.png" alt="Screenshot" width="100%">

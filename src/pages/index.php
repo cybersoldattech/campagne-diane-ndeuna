@@ -33,7 +33,7 @@
 
     <section class="mt-2 bg-white "><!--dark:bg-gray-900-->
 
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:gap-8 xl:gap-0 lg:grid-cols-12">
+        <div class="grid px-4 py-8 mx-auto max-w-screen-2xl lg:py-16 lg:gap-8 xl:gap-0 lg:grid-cols-12">
 
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
@@ -120,7 +120,7 @@
                             publiques internationales et nationales, menant des initiatives concrètes pour promouvoir
                             des
                             causes telles que l'éducation, les droits humains, l'égalité des genres, et le développement
-                            durable. Son parcours témoigne de sa capacité à transformer des défis...
+                            durable. Son parcours témoigne de sa capacité à transformer des défis &nbsp;
                             <a href="javascript:void(0);" @click="modelOpen =!modelOpen"
                                 class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
                                 En savoir plus
@@ -656,7 +656,7 @@
                             href="javascript:void(0);">Cofondation et structuration de la lettre d’information de la
                             COING (février-juin
                             2023)</a></h2>
-                    <p class="mb-5 font-light text-gray-500 ">....</p><!--dark:text-gray-400-->
+                    <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-4">
                             <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
@@ -698,7 +698,7 @@
                             href="javascript:void(0);">
                             Proposition de l’élaboration d’une cartographie des initiatives et expertises des
                             organisations accréditées, présentée à l’OIF en janvier 2023</a></h2>
-                    <p class="mb-5 font-light text-gray-500 ">...</p><!--dark:text-gray-400-->
+                    <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-4">
                             <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
@@ -735,7 +735,7 @@
                             Organisation de réunions et soirées de réseautage pour favoriser les synergies entre les
                             OSC</a></h2>
                     <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->
-                        ........</p>
+                         &nbsp; &nbsp;</p>
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-4">
                             <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
@@ -771,7 +771,7 @@
                         <a
                             href="javascript:void(0);">
                             Mobilisation des OSC aux Jeux de la Francophonie 2023 à Kinshasa</a></h2>
-                    <p class="mb-5 font-light text-gray-500 ">........</p><!--dark:text-gray-400-->
+                    <p class="mb-5 font-light text-gray-500 "> &nbsp; &nbsp;</p><!--dark:text-gray-400-->
                     <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-4">
                             <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
