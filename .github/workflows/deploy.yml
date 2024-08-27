@@ -17,16 +17,16 @@ jobs:
         username: ${{ secrets.CAMPAGNE_TEST_USER }} #CAMPAGNE_PROD_USER
         password: ${{ secrets.CAMPAGNE_TEST_PASS}} #CAMPAGNE_PROD_PASS
         exclude: |
-         .git/
-          .github/
-          *.md
-          LICENSE
-          node_modules/
-          fonts/
-          package-lock.json
-          package.json
-          tailwind.config.js
-          Dockerfile
-          docker-compose.yml
-          .gitignore
-          .dockerignore
+          ../../.git/
+          ../../github/
+          ../../README.md
+          ../../LICENSE
+          ../../node_modules/
+          .../../package-lock.json
+          .../../package.json
+          ../../tailwind.config.js
+          ../../Dockerfile
+          ../../docker-compose.yml
+          ../../.gitignore
+          ../../.dockerignore
+        rsync-options: --exclude=.git* --exclude=.git/ --exclude=README.md --exclude=readme.md --exclude=.gitignore

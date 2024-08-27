@@ -61,8 +61,9 @@
 
             </div>
 
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                 <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image">
+            <div class="relative w-full mt-4 lg:mt-0 lg:col-span-5 lg:flex">
+                 <!-- <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image"> -->
+                 <iframe src="https://player.vimeo.com/video/1002982814?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full" title="PR NDIORO NDIAYE"></iframe>
             </div>
             
 
@@ -1305,3 +1306,4 @@
 <script defer src="../assets/js/animate.js"></script>
 <script defer src="../assets/js/swiper-func.js"></script>
 <script defer src="../assets/js/style.js"></script>
+<script defer src="https://player.vimeo.com/api/player.js"></script>
