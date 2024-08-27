@@ -61,10 +61,11 @@
 
             </div>
 
-            <div class="relative w-full mt-4 lg:mt-0 lg:col-span-5 lg:flex">
+            <div class="relative w-full py-10 lg:mt-0 lg:col-span-5 lg:flex">
                  <!-- <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image"> -->
                  <iframe src="https://player.vimeo.com/video/1002982814?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full" title="PR NDIORO NDIAYE"></iframe>
             </div>
+
             
 
 
@@ -73,14 +74,14 @@
 
     <div class="items-center justify-center hidden w-full mt-4 lg:mt-0 lg:col-span-5 lg:flex">
         <img class="animate-infinite animate-duration-[6000ms] animate-ease-in  animate-bounce delay-150 duration-300 "
-            src="../assets/images/logo/logo.png" alt="coing-logo">
+            src="../assets/images/logo/logo.png" loading="lazy"  alt="coing-logo">
     </div>
 
     <!-- End Hero -->
 
     <!-- About section -->
 
-    <div class="relative px-6 py-16 overflow-hidden bg-white isolate lg:overflow-visible lg:px-0">
+    <div class="relative px-6 overflow-hidden bg-white isolate lg:overflow-visible lg:px-0">
         <div class="absolute inset-0 overflow-hidden -z-10">
             <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
                 aria-hidden="true">
