@@ -1,4 +1,4 @@
-<div class="relative mx-auto max-w-screen-2xl">
+<div class="relative mx-auto max-w-screen-3xl">
 
 <div x-data="{
 currentSlide: 0,
