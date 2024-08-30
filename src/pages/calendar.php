@@ -16,14 +16,14 @@
     <?php include "../sections/header.php" ?>
 
     <div class="p-4 mx-auto mt-4 max-w-7xl md:p-6 lg:p-8">
-        <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-salt_rivers-200 lg:text-6xl">Calendrier du Programme
+        <h1 class="mb-4 text-3xl font-bold monseratBlackBold tracking-tight text-salt_rivers-200 lg:text-6xl">Calendrier du Programme
         </h1>
         <p class="mb-4 text-lg font-semibold leading-8 text-gray-600 lg:text-2xl">Pour mettre en œuvre mes priorités en
             tant que Présidente de la COING, un calendrier
             structuré est essentiel. Il est divisé en objectifs sur trois périodes de temps : un premier temps (0-6
             mois), un deuxième temps (6-12 mois) et une troisième période de temps (1-2 ans).</p>
 
-        <h2 class="mb-2 text-2xl font-bold">Première période de temps (0-6 mois)</h2>
+        <h2 class="mb-2 text-2xl font-bold monseratBlackBold">Première période de temps (0-6 mois)</h2>
         <p class="mb-4 text-lg font-bold text-lust-100">Objectif : Établir les fondations et les actions initiales</p>
 
         <div class="flex flex-wrap -mx-4">
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <h2 class="mb-2 text-2xl font-bold">Deuxième période de temps (6-12 mois)</h2>
+        <h2 class="mb-2 text-2xl font-bold monseratBlackBold">Deuxième période de temps (6-12 mois)</h2>
         <p class="mb-4 text-lg font-bold text-lust-100">Objectif : Mettre en Œuvre les Initiatives clés et élargir
             l'engagement</p>
 
@@ -151,7 +151,7 @@
             </div>
         </div>
 
-        <h2 class="mb-2 text-2xl font-bold">Troisième période de temps (1-2 ans)</h2>
+        <h2 class="mb-2 text-2xl font-bold monseratBlackBold">Troisième période de temps (1-2 ans)</h2>
         <p class="mb-4 text-lg font-bold text-lust-100">Objectif : Maintenir et élargir les initiatives réussies</p>
 
         <div class="flex flex-wrap -mx-4">

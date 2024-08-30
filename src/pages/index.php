@@ -37,7 +37,7 @@
 
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
-                    class="max-w-2xl mb-4 text-3xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl "><!--dark:text-white-->
+                    class="max-w-2xl mb-4 text-3xl font-bold monseratBlackBold  leading-none tracking-tight md:text-5xl xl:text-6xl "><!--dark:text-white-->
                     Ensemble pour une COING d'impacts et de Solidarités.
                 </h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl "><!--dark:text-gray-400-->
@@ -107,7 +107,7 @@
                 <div class="lg:pr-4">
                     <div class="lg:max-w-lg">
                         <p class="text-base font-semibold leading-7 text-indigo-600">À propos de Diane</p>
-                        <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Biographie de Diane
+                        <h1 class="mt-2 text-3xl font-monseratBlack  tracking-tight text-gray-900 sm:text-4xl">Biographie de Diane
                             Ndeuna
                         </h1>
                         <p class="mt-6 leading-8 text-gray-700 sm sm:text-xl">
@@ -246,7 +246,7 @@
             <div class="max-w-2xl mx-auto lg:text-center">
 
                 <h2
-                    class="mb-4 text-3xl font-extrabold tracking-tight lg:text-6xl text-salt_rivers-300 "><!--dark:text-white-->
+                    class="mb-4 text-3xl font-monseratBlack tracking-tight lg:text-6xl text-salt_rivers-300  "><!--dark:text-white-->
                     Ma vision pour la COING</h2>
                 <p class="mt-4 text-base font-bold tracking-tight text-gray-900 lg:text-2xl sm:text-xl">Mes priorités
                     reposent sur trois axes principaux </p>
@@ -257,7 +257,7 @@
                 </p>
                 <div class="mt-6">
 
-                    <p class="mt-6 font-bold tracking-tight text-center lg:text-2xl text-dreams_spring-100 sm:text-xl">
+                    <p class="mt-6 font-bold font-monseratBlack tracking-tight text-center lg:text-2xl text-dreams_spring-100 sm:text-xl">
                         1.Propositions
                         concrètes
                         et opportunités </p>
@@ -386,7 +386,7 @@
                 x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full">
 
                 <div class="max-w-2xl mx-auto lg:text-center">
-                    <p class="mt-2 font-bold tracking-tight text-center text-dreams_spring-100 sm:text-xl">
+                    <p class="mt-2  font-bold monseratBlackBold  tracking-tight text-center text-dreams_spring-100 sm:text-xl">
                         2.Représentation
                         efficace et synergies </p>
                 </div>
@@ -480,7 +480,7 @@
 
 
                 <div class="max-w-2xl mx-auto lg:text-center">
-                    <p class="mt-2 font-bold tracking-tight text-center text-dreams_spring-100 sm:text-xl">3.Ancrage
+                    <p class="mt-2  tracking-tight font-bold monseratBlackBold  text-center text-dreams_spring-100 sm:text-xl">3.Ancrage
                         dans la
                         Société Civile Francophone </p>
                 </div>
@@ -634,7 +634,7 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
                 <h2
-                    class="mb-4 text-3xl font-extrabold tracking-tight lg:text-6xl text-salt_rivers-300 dark:text-white">
+                    class="mb-4 text-3xl font-extrabold font-monseratBlack  tracking-tight lg:text-6xl text-salt_rivers-300 dark:text-white">
                     Réalisations </h2>
                 <p class="text-gray-500 font-semi-bold sm:text-xl dark:text-gray-400">Guidée par les valeurs de
                     coopération,
@@ -684,7 +684,7 @@
                     class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
                     <div class="flex items-center justify-between mb-5 text-gray-500">
                         <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+                            class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
                             <!-- <svg class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -726,7 +726,7 @@
                     class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
                     <div class="flex items-center justify-between mb-5 text-gray-500">
                         <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+                            class="bg-primary-100 font-monseratBlack  text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
                             Réalisation
                         </span>
                         <span class="text-sm"></span>
@@ -804,7 +804,7 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
                 <h2
-                    class="mb-4 text-3xl font-extrabold tracking-tight lg:text-6xl text-salt_rivers-300 "><!--dark:text-white-->
+                    class="mb-4 text-3xl  font-bold monseratBlackBold  tracking-tight lg:text-6xl text-salt_rivers-300 "><!--dark:text-white-->
                     Actualités</h2>
                 <p class="font-bold text-gray-500 sm:text-xl "><!--dark:text-gray-400-->
                     Actualités de la Campagne de Diane
@@ -1049,7 +1049,7 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="mb-16">
                 <span
-                    class="block mb-2 text-3xl font-extrabold text-center lg:text-6xl text-salt_rivers-300">Témoignages
+                    class="block mb-2 text-3xl text-center lg:text-6xl font-bold monseratBlackBold  text-salt_rivers-300">Témoignages
                 </span>
                 <h2 class="text-xl font-bold text-center text-gray-900 ">Découvrez les témoignages de soutiens
                     influents et d'électeurs convaincus par la vision de Diane.</h2>

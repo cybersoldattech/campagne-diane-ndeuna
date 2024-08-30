@@ -4,15 +4,33 @@
 
 @layer base {
     @font-face {
-        font-family: 'monseratRegular';
+        font-family: 'souceSansProRegular';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url(../fonts/MONTSERRAT-REGULAR.OTF) format('otf');
+        src: url(../fonts/SOURCESANSPRO-REGULAR.OTF) format('otf');
+    }
+
+    @font-face {
+        font-family: 'monseratBlackBold';
+        font-weight: 900;
+        font-display: swap;
+        src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
+    }
+
+    @font-face {
+        font-family: 'monseratBlack';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
     }
     html {
-        font-family: "monseratRegular";
+        font-family: "souceSansProRegular";
         scroll-behavior: smooth;
         overflow-x: hidden;
+      }
+      .monseratBlackBold {
+        font-family: "monseratBlackBold";
       }
 }
