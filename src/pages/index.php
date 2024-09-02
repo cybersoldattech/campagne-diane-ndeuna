@@ -48,7 +48,9 @@
                     apaisée.
                 </p>
                 <a href="index.php#actu"
-                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
+                    class="inline-flex items-center justify-center px-5 py-3 mr-3 
+                    text-base font-medium text-center text-white rounded-lg bg-primary-700
+                     hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
                     <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -284,7 +286,7 @@
                 <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
                     <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-gray-900">
+                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
                             <div
                                 class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -305,7 +307,7 @@
                     </div>
 
                     <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-gray-900">
+                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
                             <div
                                 class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -324,7 +326,7 @@
                     </div>
 
                     <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-gray-900">
+                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
                             <div
                                 class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -343,7 +345,7 @@
                             financements supplémentaires.</dd>
                     </div>
                     <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-gray-900">
+                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
                             <div
                                 class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -361,7 +363,7 @@
                             identifier et soutenir les solutions innovantes aux défis sociaux et environnementaux.</dd>
                     </div>
                     <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-gray-900">
+                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
                             <div
                                 class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                 <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -412,7 +414,7 @@
                     <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -434,7 +436,7 @@
                         </div>
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -453,7 +455,7 @@
                         </div>
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -471,7 +473,7 @@
                                 financement et l'impact collectif.</dd>
                         </div>
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -508,7 +510,7 @@
                     <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -529,7 +531,7 @@
                         </div>
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -548,7 +550,7 @@
                         </div>
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -579,7 +581,7 @@
                     <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -599,7 +601,7 @@
                         </div>
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -618,7 +620,7 @@
                         </div>
 
                         <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-gray-900">
+                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
                                 <div
                                     class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
                                     <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -652,7 +654,7 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
 
-                <h2 class="mb-4 text-3xl  font-monseratBlack tracking-tight lg:text-6xl text-blue-700 ">
+                <h2 class="mb-4 text-3xl  font-bold font-monseratBold tracking-tight lg:text-6xl text-blue-700 ">
                     <!--dark:text-white-->
                     Réalisations
                 </h2>
@@ -826,13 +828,11 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
                 <h2
-                    class="mb-4 text-3xl   !font-monseratBlackBold  tracking-tight lg:text-6xl text-salt_rivers-300 ">
+                    class="mb-4 text-3xl font-bold font-monseratBlack   tracking-tight lg:text-6xl text-blue-800 ">
                     <!--dark:text-white-->
                     Actualités
                 </h2>
-                <p class="font-bold text-gray-500 sm:text-xl "><!--dark:text-gray-400-->
-                    Actualités de la Campagne de Diane
-                    Ndeuna.</p>
+                <p class="font-bold text-gray-500 sm:text-xl "><!--dark:text-gray-400-->  Actualités de la Campagne de Diane  Ndeuna.</p>
             </div>
 
             <div class="swiper mySwiper">
@@ -895,7 +895,7 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="mb-16">
                 <span
-                    class="block mb-2 text-3xl text-center lg:text-6xl font-bold font-monseratBlack  text-salt_rivers-300">Témoignages
+                    class="block mb-2 text-3xl text-center lg:text-6xl font-bold font-monseratBlack  text-blue-800">Témoignages
                 </span>
                 <h2 class="text-xl font-bold text-center text-gray-900 ">Découvrez les témoignages de soutiens
                     influents et d'électeurs convaincus par la vision de Diane.</h2>
@@ -935,136 +935,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
-                        <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <div class="">
-                                <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
-                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                    <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
-                                </div>
-                                <p
-                                    class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    Le Réseau Francophone pour l'Égalité Femme-Homme soutient pleinement la candidature
-                                    de Diane Ndeuna. Son engagement indéfectible pour l'égalité des sexes et l'inclusion
-                                    est exemplaire. Diane incarne les valeurs que nous défendons et nous croyons
-                                    fermement qu'elle est la meilleure candidate pour faire progresser ces idéaux au
-                                    sein de la COING
-                                </p>
-                            </div>
-                            <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
-                                <div class="block">
-                                    <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500">Réseau Francophone pour l'Égalité
-                                        Femme-Homme </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <div class="">
-                                <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
-                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                    <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
-                                </div>
-                                <p
-                                    class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    "Avec Diane Ndeuna à la présidence de la COING, nous avons une véritable chance de
-                                    renforcer les actions pour le développement durable dans la Francophonie. Son
-                                    leadership, sa vision innovante et son engagement en faveur de l'environnement sont
-                                    sans faille. Diane est la candidate dont nous avons besoin pour faire avancer la
-                                    Francophonie vers un avenir plus vert et plus durable."
-                                </p>
-                            </div>
-                            <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
-                                <div class="block">
-                                    <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500">Stéphane Pouffary </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <div class="">
-                                <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
-                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                    <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
-                                </div>
-                                <p
-                                    class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    "Diane Ndeuna a toujours su défendre avec ardeur les causes qui lui tiennent à cœur.
-                                    Son travail avec les organisations de la société civile démontre non seulement son
-                                    expertise, mais aussi sa capacité à fédérer et à mener des projets qui font une
-                                    réelle différence. Son engagement pour la préservation et la promotion du patrimoine
-                                    immatériel de la Francophonie est remarquable et je suis convaincue qu'elle
-                                    continuera à faire avancer ces enjeux cruciaux à la présidence de la COING."
-                                </p>
-                            </div>
-                            <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
-                                <div class="block">
-                                    <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500">Ndeye Marie Fall </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <div class="">
-                                <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
-                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                    <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
-                                </div>
-                                <p
-                                    class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    "Diane a su montrer, à travers ses actions et ses engagements, qu'elle est à
-                                    l'écoute des besoins des OSC. Elle comprend les défis que nous rencontrons sur le
-                                    terrain et propose des solutions concrètes et adaptées. Je suis confiant qu'avec
-                                    Diane à la présidence de la COING, nos voix seront entendues et nos efforts
-                                    reconnus."
-                                </p>
-                            </div>
-                            <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
-                                <div class="block">
-                                    <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500">Responsable d'une ONG nationale
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
 
 
                 </div>
