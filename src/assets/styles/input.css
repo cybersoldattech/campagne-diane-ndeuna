@@ -7,30 +7,26 @@
         font-family: 'souceSansProRegular';
         font-style: normal;
         font-weight: 400;
-        font-display: swap;
         src: url(../fonts/SOURCESANSPRO-REGULAR.OTF) format('otf');
     }
 
     @font-face {
         font-family: 'monseratBlackBold';
-        font-weight: 900;
-        font-display: swap;
+        font-weight: bold;
+        font-style: normal;
         src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
     }
 
     @font-face {
         font-family: 'monseratBlack';
+        font-weight: normal;
         font-style: normal;
-        font-weight: 400;
-        font-display: swap;
         src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
     }
+
     html {
         font-family: "souceSansProRegular";
         scroll-behavior: smooth;
         overflow-x: hidden;
-      }
-      .monseratBlackBold {
-        font-family: "monseratBlackBold";
       }
 }

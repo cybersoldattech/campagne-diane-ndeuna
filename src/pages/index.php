@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/styles/output.css" rel="stylesheet">
-    
-   
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link href="../assets/styles/style.css" rel="stylesheet">
@@ -34,17 +34,19 @@
     <section class="mt-2 bg-white "><!--dark:bg-gray-900-->
 
         <div class="grid px-4 py-8 mx-auto max-w-screen-2xl lg:py-16 lg:gap-8 xl:gap-0 lg:grid-cols-12">
-
+    
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1
-                    class="max-w-2xl mb-4 text-3xl font-bold monseratBlackBold  leading-none tracking-tight md:text-5xl xl:text-6xl "><!--dark:text-white-->
+                <h1 class="max-w-2xl mb-4 text-3xl font-monseratBlackBold text-blue-900  leading-none tracking-tight 
+                    md:text-5xl xl:text-6xl "><!--dark:text-white-->
                     Ensemble pour une COING d'impacts et de Solidarités.
                 </h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl "><!--dark:text-gray-400-->
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
+                    <!--dark:text-gray-400-->
                     Bienvenue sur le site officiel de la campagne de Diane Ndeuna pour la Présidence de la COING de
                     l’OIF. Ensemble, pour une COING de solutions, unissons nos forces pour une Francophonie plus forte
                     et
-                    apaisée.</p>
+                    apaisée.
+                </p>
                 <a href="index.php#actu"
                     class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
                     <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
@@ -62,11 +64,20 @@
             </div>
 
             <div class="relative w-full py-10 lg:mt-0 lg:col-span-5 lg:flex">
-                 <!-- <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image"> -->
-                 <iframe src="https://player.vimeo.com/video/1002982814?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full" title="PR NDIORO NDIAYE"></iframe>
+
+                <!-- <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image"> -->
+
+                <iframe
+                    src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
+                    title="PR NDIORO NDIAYE"></iframe>
+
+                <!-- <div style="padding:75% 0 0 0;position:relative;">
+                        <iframe src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  title="eden-africa-coing"></iframe>
+                    </div> -->
             </div>
 
-            
+
 
 
         </div>
@@ -74,7 +85,7 @@
 
     <div class="items-center justify-center hidden w-full mt-4 lg:mt-0 lg:col-span-5 lg:flex">
         <img class="animate-infinite animate-duration-[6000ms] animate-ease-in  animate-bounce delay-150 duration-300 "
-            src="../assets/images/logo/logo.png" loading="lazy"  alt="coing-logo">
+            src="../assets/images/logo/logo.png" loading="lazy" alt="coing-logo">
     </div>
 
     <!-- End Hero -->
@@ -107,7 +118,8 @@
                 <div class="lg:pr-4">
                     <div class="lg:max-w-lg">
                         <p class="text-base font-semibold leading-7 text-indigo-600">À propos de Diane</p>
-                        <h1 class="mt-2 text-3xl font-monseratBlack  tracking-tight text-gray-900 sm:text-4xl">Biographie de Diane
+                        <h1 class="mt-2 text-3xl font-monseratBlack  tracking-tight text-gray-900 sm:text-4xl">
+                            Biographie de Diane
                             Ndeuna
                         </h1>
                         <p class="mt-6 leading-8 text-gray-700 sm sm:text-xl">
@@ -144,7 +156,7 @@
             <div
                 class="p-12 -mt-12 -ml-8 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden toAnimate_2">
                 <img class="bg-gray-900 shadow-xl rounded-xl ring-1 ring-gray-400/10"
-                    src="../assets/images/profiles/1.png" loading="lazy"  alt="Diana Ndeuna profile">
+                    src="../assets/images/profiles/1.png" loading="lazy" alt="Diana Ndeuna profile">
             </div>
             <div
                 class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -172,59 +184,59 @@
                     <div
                         class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid swiper-slide md:h-96 rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
                         <div class="flex items-center justify-center h-full rounded-full">
-                            <img src="../assets/images/galeries/14.jpg" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/14.jpg" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
                     <div class="h-64 rounded-full swiper-slide md:h-96 ">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/2.png" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/2.png" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
                     <div
                         class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid swiper-slide md:h-96 rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
                         <div class="flex items-center justify-center h-full rounded-full">
-                            <img src="../assets/images/galeries/3.png" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/3.png" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
                     <div
                         class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid swiper-slide md:h-96 rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
                         <div class="flex items-center justify-center h-full">
-                            <img src="../assets/images/galeries/13.jpg" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/13.jpg" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/5.png" loading="lazy"  class="w-auto max-h-full">
-                        </div>
-                    </div>
-
-                    <div class="h-64 swiper-slide md:h-96">
-                        <div
-                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/6.png" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/5.png" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/7.png" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/6.png" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/12.jpg" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/7.png" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/11.jpg" loading="lazy"  class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/12.jpg" loading="lazy" class="w-auto max-h-full">
+                        </div>
+                    </div>
+
+                    <div class="h-64 swiper-slide md:h-96">
+                        <div
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                            <img src="../assets/images/galeries/11.jpg" loading="lazy" class="w-auto max-h-full">
                         </div>
                     </div>
                 </div>
@@ -236,19 +248,21 @@
 
 
     <!--start vision -->
-    <div class="grid grid-cols-1 gap-8 py-24 bg-white lg:grid-cols-2 " id="vision">
-        <div class="px-6 lg:px-8 ">
+    <div class="grid grid-cols-1 gap-8 py-24 bg-white lg:grid-cols-1 " id="vision">
+        <!-- <div class="px-6 lg:px-8 ">
             <img class="rounded-md shadow-xl lg:sticky lg:top-40 lg:ml-4" loading="lazy"  src="../assets/images/diana-profile-1.png"
                 alt="coing-logo" />
-        </div>
+        </div> -->
 
         <div class="px-6 mx-auto max-w-7xl lg:px-8">
             <div class="max-w-2xl mx-auto lg:text-center">
 
                 <h2
-                    class="mb-4 text-3xl font-monseratBlack tracking-tight lg:text-6xl text-salt_rivers-300  "><!--dark:text-white-->
-                    Ma vision pour la COING</h2>
-                <p class="mt-4 text-base font-bold tracking-tight text-gray-900 lg:text-2xl sm:text-xl">Mes priorités
+                    class="mb-4 text-3xl font-bold font-monseratBlack tracking-tight lg:text-6xl text-violetEggplant-800  ">
+                    <!--dark:text-white-->
+                    Ma vision pour la COING
+                </h2>
+                <p class="mt-4 text-base font-bold tracking-tight text-blue-700 lg:text-2xl sm:text-xl">Mes priorités
                     reposent sur trois axes principaux </p>
                 <p class="mt-6 text-lg font-semibold leading-8 text-gray-600 lg:text-2xl">J'aspire à faire de la COING
                     une force
@@ -257,7 +271,8 @@
                 </p>
                 <div class="mt-6">
 
-                    <p class="mt-6 font-bold font-monseratBlack tracking-tight text-center lg:text-2xl text-dreams_spring-100 sm:text-xl">
+                    <p
+                        class="mt-6 font-bold font-monseratBlack tracking-tight text-center lg:text-2xl text-dreams_spring-100 sm:text-xl">
                         1.Propositions
                         concrètes
                         et opportunités </p>
@@ -386,7 +401,8 @@
                 x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full">
 
                 <div class="max-w-2xl mx-auto lg:text-center">
-                    <p class="mt-2  font-bold monseratBlackBold  tracking-tight text-center text-dreams_spring-100 sm:text-xl">
+                    <p
+                        class="mt-2  font-bold monseratBlackBold  tracking-tight text-center text-dreams_spring-100 sm:text-xl">
                         2.Représentation
                         efficace et synergies </p>
                 </div>
@@ -480,7 +496,9 @@
 
 
                 <div class="max-w-2xl mx-auto lg:text-center">
-                    <p class="mt-2  tracking-tight font-bold monseratBlackBold  text-center text-dreams_spring-100 sm:text-xl">3.Ancrage
+                    <p
+                        class="mt-2  tracking-tight font-bold font-monseratBlack  text-center text-dreams_spring-100 sm:text-xl">
+                        3.Ancrage
                         dans la
                         Société Civile Francophone </p>
                 </div>
@@ -633,83 +651,49 @@
     <section class="bg-white " id="realisation"><!--dark:bg-gray-900-->
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
-                <h2
-                    class="mb-4 text-3xl font-extrabold font-monseratBlack  tracking-tight lg:text-6xl text-salt_rivers-300 dark:text-white">
-                    Réalisations </h2>
-                <p class="text-gray-500 font-semi-bold sm:text-xl dark:text-gray-400">Guidée par les valeurs de
+
+                <h2 class="mb-4 text-3xl  font-monseratBlack tracking-tight lg:text-6xl text-blue-700 ">
+                    <!--dark:text-white-->
+                    Réalisations
+                </h2>
+                <p class="text-lg font-semibold leading-8 text-gray-600 lg:text-2xl">Guidée par les valeurs de
                     coopération,
                     de solidarité et de justice, Diane Ndeuna s'engage à défendre les intérêts de la société civile
                     francophone. Elle croit en une Francophonie qui valorise chaque voix et qui agit pour le bien
                     commun, dans une démarche inclusive et consensuelle.</p>
             </div>
+
             <div class="grid gap-8 lg:grid-cols-2">
 
-                <article
-                    class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                    <div class="flex items-center justify-between mb-5 text-gray-500">
-                        <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                            Réalisation
-                        </span>
-                        <span class="text-sm"></span>
-                    </div>
-                    <h2 class="mb-2 text-xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                        <a
-                            href="javascript:void(0);">Cofondation et structuration de la lettre d’information de la
-                            COING (février-juin
-                            2023)</a></h2>
-                    <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
+
+
+
+
+                <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
                     <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-4">
-                            <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
-                                alt="Logo eden afica" />
-                            <span class="font-medium "><!--dark:text-white-->
-
-                            </span>
-                        </div>
-                        <a href="javascript:void(0);"
-                            class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
-                            En savoir plus
-                            <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <article
-                    class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                    <div class="flex items-center justify-between mb-5 text-gray-500">
                         <span
                             class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
-                            <!-- <svg class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z">
-                                </path>
-                            </svg> -->
+
                             Réalisation
                         </span>
-                        <span class="text-sm"></span>
+                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900">Cofondation et structuration
+                            de la lettre d’information de la
+                            COING (février-juin
+                            2023)</span>
                     </div>
-                    <h2 class="mb-2 text-xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                        <a
-                            href="javascript:void(0);">
-                            Proposition de l’élaboration d’une cartographie des initiatives et expertises des
-                            organisations accréditées, présentée à l’OIF en janvier 2023</a></h2>
+
                     <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
-                    <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-4">
-                            <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
+                    <div>
+                        <div class="flex  space-x-4">
+                            <img class="rounded w-ful" loading="lazy" src="../assets/images/realisations/1/1.jpeg"
                                 alt="Logo eden afica" />
-                            <span class="font-medium "><!--dark:text-white-->
 
-                            </span>
                         </div>
-                        <a href="#"
+
+                    </div>
+
+                    <div class="flex flex-row  justify-center items-center mb-4">
+                        <a href="../assets/files/Programme.pdf" target="_blank"
                             class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                             En savoir plus
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -720,33 +704,36 @@
                             </svg>
                         </a>
                     </div>
+
                 </article>
 
-                <article
-                    class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                    <div class="flex items-center justify-between mb-5 text-gray-500">
+
+
+
+                <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
+                    <div class="flex items-center justify-between">
                         <span
-                            class="bg-primary-100 font-monseratBlack  text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+                            class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+
                             Réalisation
                         </span>
-                        <span class="text-sm"></span>
+                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900">Proposition de l’élaboration
+                            d’une cartographie des initiatives et expertises des
+                            organisations accréditées, présentée à l’OIF en janvier 2023</span>
                     </div>
-                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                        <a
-                            href="javascript:void(0);">
-                            Organisation de réunions et soirées de réseautage pour favoriser les synergies entre les
-                            OSC</a></h2>
-                    <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->
-                         &nbsp; &nbsp;</p>
-                    <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-4">
-                            <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
-                                alt="Bonnie Green avatar" />
-                            <span class="font-medium "><!--dark:text-white-->
 
-                            </span>
+                    <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
+                    <div>
+                        <div class="flex  space-x-4">
+                            <img class="rounded w-ful" loading="lazy" src="../assets/images/realisations/2/1.jpeg"
+                                alt="Logo eden afica" />
+
                         </div>
-                        <a href="#"
+
+                    </div>
+
+                    <div class="flex flex-row  justify-center items-center mb-4">
+                        <a href="../assets/files/Programme.pdf" target="_blank"
                             class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                             En savoir plus
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -757,32 +744,33 @@
                             </svg>
                         </a>
                     </div>
+
                 </article>
 
-
-                <article
-                    class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                    <div class="flex items-center justify-between mb-5 text-gray-500">
+                <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
+                    <div class="flex items-center justify-between">
                         <span
-                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+                            class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+
                             Réalisation
                         </span>
-                        <span class="text-sm"></span>
+                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900">Organisation de réunions et
+                            soirées de réseautage pour favoriser les synergies entre les
+                            OSC</span>
                     </div>
-                    <h2 class="mb-2 text-xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                        <a
-                            href="javascript:void(0);">
-                            Mobilisation des OSC aux Jeux de la Francophonie 2023 à Kinshasa</a></h2>
-                    <p class="mb-5 font-light text-gray-500 "> &nbsp; &nbsp;</p><!--dark:text-gray-400-->
-                    <div class="flex items-center justify-between">
-                        <div class="flex items-center space-x-4">
-                            <img class="rounded-full w-7 h-7" loading="lazy"  src="../assets/images/logo-eden-africa-01.png"
-                                alt="Logo Eden africa" />
-                            <span class="font-medium "><!--dark:text-white-->
 
-                            </span>
+                    <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
+                    <div>
+                        <div class="flex  space-x-4">
+                            <img class="rounded w-ful" loading="lazy" src="../assets/images/realisations/3/1.jpeg"
+                                alt="Logo eden afica" />
+
                         </div>
-                        <a href="#"
+
+                    </div>
+
+                    <div class="flex flex-row  justify-center items-center mb-4">
+                        <a href="../assets/files/Programme.pdf" target="_blank"
                             class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                             En savoir plus
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -793,7 +781,41 @@
                             </svg>
                         </a>
                     </div>
+
                 </article>
+
+                <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
+                    <div class="flex items-center justify-between">
+                        <span
+                            class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded ">
+            
+                            Réalisation
+                        </span>
+                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900"> Mobilisation des OSC aux Jeux de la Francophonie 2023 à Kinshasa</span>
+                    </div>
+
+                    <p class="mb-5 font-light text-gray-500 "> &nbsp;</p>
+                    <div class="mb-4 swiper default-carousel swiper-container">
+                        <div>  <img class="rounded w-full object-cover " loading="lazy" src="../assets/images/realisations/4/1.jpg" alt="Logo eden afica" /> </div>                   
+                      
+                    </div>
+
+                    <div class="flex flex-row  justify-center items-center mb-4">
+                        <a href="../assets/files/Programme.pdf" target="_blank"
+                            class="inline-flex items-center font-medium text-primary-600 hover:underline">
+                            En savoir plus
+                            <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    
+                </article>
+
+
             </div>
         </div>
     </section>
@@ -804,8 +826,10 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
                 <h2
-                    class="mb-4 text-3xl  font-bold monseratBlackBold  tracking-tight lg:text-6xl text-salt_rivers-300 "><!--dark:text-white-->
-                    Actualités</h2>
+                    class="mb-4 text-3xl   !font-monseratBlackBold  tracking-tight lg:text-6xl text-salt_rivers-300 ">
+                    <!--dark:text-white-->
+                    Actualités
+                </h2>
                 <p class="font-bold text-gray-500 sm:text-xl "><!--dark:text-gray-400-->
                     Actualités de la Campagne de Diane
                     Ndeuna.</p>
@@ -814,8 +838,8 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <article
-                            class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
+                        <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
+                            <!--dark:bg-gray-800 dark:border-gray-700-->
                             <div class="flex items-center justify-between mb-5 text-gray-500">
                                 <span
                                     class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
@@ -824,205 +848,24 @@
                                 <span class="text-sm">10 août 2024</span>
                             </div>
                             <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                                <a
-                                    href="#">Annonce
-                                    officielle de soutien du Réseau Francophone pour l'Égalité Femme-Homme</a></h2>
-                            <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->
-                                Le Réseau Francophone pour
-                                l'Égalité
-                                Femme-Homme a officiellement annoncé son soutien à la candidature de Diane Ndeuna pour
-                                la
-                                présidence de la COING. Dans leur déclaration, ils ont salué son engagement en faveur de
-                                l'égalité des sexes et son leadership exemplaire au sein de la Francophonie. Ce soutien
-                                renforce
-                                la crédibilité de Diane en tant que candidate capable de défendre les valeurs
-                                d'inclusion et de
-                                justice sociale</p>
-                            <div class="flex items-center justify-between">
-
-                                <a href="javascript:void(0);"
-                                    class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
-                                    En savoir plus
-                                    <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="swiper-slide ">
-                        <article
-                            class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                            <div class="flex items-center justify-between mb-5 text-gray-500">
-                                <span
-                                    class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
-                                    Actualité
-                                </span>
-                                <span class="text-sm">10 Août 2024</span>
-                            </div>
-                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                                <a
-                                    href="#">Annonce
-                                    officielle de soutien du Réseau Francophone pour l'Égalité Femme-Homme</a></h2>
-                            <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->
-                                Le Réseau Francophone pour
-                                l'Égalité
-                                Femme-Homme a officiellement annoncé son soutien à la candidature de Diane Ndeuna pour
-                                la
-                                présidence de la COING. Dans leur déclaration, ils ont salué son engagement en faveur de
-                                l'égalité des sexes et son leadership exemplaire au sein de la Francophonie. Ce soutien
-                                renforce
-                                la crédibilité de Diane en tant que candidate capable de défendre les valeurs
-                                d'inclusion et de
-                                justice sociale</p>
-                            <div class="flex items-center justify-between">
-
-                                <a href="javascript:void(0);"
-                                    class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
-                                    En savoir plus
-                                    <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="swiper-slide ">
-                        <article
-                            class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                            <div class="flex items-center justify-between mb-5 text-gray-500">
-                                <span
-                                    class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                                    Actualité
-                                </span>
-                                <span class="text-sm">12 Août 2024</span>
-                            </div>
-                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                                <a
-                                    href="#">Diane Ndeuna rencontre des OSC d’Afrique Centrale</a></h2>
-                            <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->
-                                Diane Ndeuna a récemment
-                                rencontré plusieurs Organisations de la Société Civile (OSC) locales en Afrique Centrale
-                                pour discuter des défis qu'elles rencontrent et des moyens par lesquels la COING
-                                pourrait mieux les soutenir. Ces échanges ont permis de renforcer sa compréhension des
-                                besoins de terrain et de nourrir ses propositions pour un soutien accru et une meilleure
-                                visibilité des OSC francophones.</p>
-                            <div class="flex items-center justify-between">
-
-                                <a href="javascript:void(0);"
-                                    class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
-                                    En savoir plus
-                                    <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="swiper-slide ">
-                        <article
-                            class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                            <div class="flex items-center justify-between mb-5 text-gray-500">
-                                <span
-                                    class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                                    Actualité
-                                </span>
-                                <span class="text-sm">15 Août 2024</span>
-                            </div>
-                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                                <a
-                                    href="#">Réunion virtuelle avec les électeurs de la COING</a></h2>
-                            <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->Diane Ndeuna organisera une
-                                réunion virtuelle avec les électeurs de la COING le 20 août 2024. Cette session sera
-                                l'occasion pour les membres de poser leurs questions directement à Diane, de mieux
-                                comprendre son programme, et de discuter des priorités pour l'avenir de la COING. Les
-                                détails pour participer à cette réunion seront envoyés par e-mail aux membres inscrits.
-                            </p>
-                            <div class="flex items-center justify-between">
-
-                                <a href="javascript:void(0);"
-                                    class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
-                                    En savoir plus
-                                    <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-
-                    <div class="swiper-slide ">
-                        <article
-                            class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                            <div class="flex items-center justify-between mb-5 text-gray-500">
-                                <span
-                                    class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
-                                    Actualité
-                                </span>
-                                <span class="text-sm">14 Août 2024</span>
-                            </div>
-                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white--><a
-                                    href="#">Témoignage de soutien de l'ancienne présidente de la COING</a></h2>
-                            <p class="mb-5 font-light text-gray-500 dark:text-gray-400">L'ancienne présidente de la
-                                COING (2018-2022) a exprimé son soutien pour Diane Ndeuna dans une déclaration publique,
-                                soulignant la capacité de Diane à obtenir des résultats concrets même sans budget dédié.
-                                Elle a également mentionné son potentiel pour porter la COING à un nouveau niveau
-                                d'impact au sein de la Francophonie.
-                            </p>
-                            <div class="flex items-center justify-between">
-
-                                <a href="javascript:void(0);"
-                                    class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
-                                    En savoir plus
-                                    <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="swiper-slide ">
-                        <article
-                            class="p-6 bg-white border border-gray-200 rounded-lg shadow-md "><!--dark:bg-gray-800 dark:border-gray-700-->
-                            <div class="flex items-center justify-between mb-5 text-gray-500">
-                                <span
-                                    class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-                                    Actualité
-                                </span>
-                                <span class="text-sm">16 Août 2024</span>
-                            </div>
-                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white--><a
-                                    href="#">Participation de Diane Ndeuna à un webinaire sur l'inclusion numérique</a>
+                                <a href="#">Annonce
+                                    officielle de soutien du Réseau Francophone pour l'Égalité Femme-Homme</a>
                             </h2>
-                            <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Diane Ndeuna a participé à un
-                                webinaire organisé par la Commission C sur l'inclusion numérique des femmes migrantes.
-                                Lors de cet événement, elle a partagé ses perspectives sur l'importance de renforcer les
-                                capacités numériques des OSC et de créer des opportunités pour les femmes dans le
-                                secteur numérique. Cette intervention a été largement saluée par les participants pour
-                                sa pertinence et son engagement.
-                            </p>
+                            <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->
+                                Le Réseau Francophone pour
+                                l'Égalité
+                                Femme-Homme a officiellement annoncé son soutien à la candidature de Diane Ndeuna pour
+                                la
+                                présidence de la COING. Dans leur déclaration, ils ont salué son engagement en faveur de
+                                l'égalité des sexes et son leadership exemplaire au sein de la Francophonie. Ce soutien
+                                renforce
+                                la crédibilité de Diane en tant que candidate capable de défendre les valeurs
+                                d'inclusion et de
+                                justice sociale</p>
                             <div class="flex items-center justify-between">
 
                                 <a href="javascript:void(0);"
-                                    class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                                    class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                                     En savoir plus
                                     <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -1034,6 +877,9 @@
                             </div>
                         </article>
                     </div>
+
+
+
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -1049,7 +895,7 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="mb-16">
                 <span
-                    class="block mb-2 text-3xl text-center lg:text-6xl font-bold monseratBlackBold  text-salt_rivers-300">Témoignages
+                    class="block mb-2 text-3xl text-center lg:text-6xl font-bold font-monseratBlack  text-salt_rivers-300">Témoignages
                 </span>
                 <h2 class="text-xl font-bold text-center text-gray-900 ">Découvrez les témoignages de soutiens
                     influents et d'électeurs convaincus par la vision de Diane.</h2>

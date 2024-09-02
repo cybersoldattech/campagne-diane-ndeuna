@@ -7,7 +7,7 @@
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
 
             <a href="javscript:void(0);" class="flex items-center">
-                <img src="../assets/images/logo-eden-africa-01.png" class="h-10 mr-3 sm:h-12" alt="Eden-Africa" />
+                <img src="../assets/images/logo-eden-africa-01.png" class="h-10 mr-3 sm:h-24" alt="Eden-Africa" />
                 <span class="self-center text-xl font-semibold whitespace-nowrap ">&nbsp; &nbsp;
                     &nbsp;</span><!--dark:text-white-->
             </a>
@@ -30,6 +30,10 @@
                     </svg>
                 </button>
             </div>
+
+         
+         
+
             <!-- Desktop-->
             <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
 
@@ -45,7 +49,7 @@
                             class="block py-2 pl-3 pr-4 font-semibold text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Biographie</a><!--dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700-->
                     </li>
                     <li>
-                        <a href="calendar.php"
+                        <a href="../assets/files/programme.pdf" target="_blank"
                             class="block py-2 pl-3 pr-4 font-semibold text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Programme</a><!--dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700-->
                     </li>
                     <li>
@@ -57,7 +61,15 @@
                             class="block py-2 pl-3 pr-4 font-semibold text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Contact</a>
                     </li>
                 </ul>
+
+                
+             
+                <a href="javscript:void(0);" class="ml-32">
+                    <img src="../assets/images/logo/logo.png" loading="lazy"  alt="coing-logo"class="h-10 mr-3 sm:h-24" />
+                
+                </a>
             </div>
+     
             
             <!--Mobile-->
 
@@ -86,7 +98,7 @@
                         class="block py-2 pr-4 pl-3 <?= $currentFile == 'index.php#bio' ? 'text-green-500' : 'text-black' ?> border-b border-green-300 hover:bg-green-50 lg:hover:bg-transparent font-bold lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Biographie</a><!--dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700-->
                 </li>
                 <li  @click="mobileMenuIsOpen =!mobileMenuIsOpen">
-                    <a href="calendar.php" 
+                    <a href="../assets/files/programme.pdf"  target="_blank"
                         class="block py-2 pr-4 pl-3 <?= $currentFile == 'calendar.php' ? 'text-green-500' : 'text-black' ?> border-b border-green-300 hover:bg-green-50 lg:hover:bg-transparent font-bold lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Programme</a><!--dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700-->
                 </li>
                 <li  @click="mobileMenuIsOpen =!mobileMenuIsOpen">
@@ -102,7 +114,8 @@
             </ul>
 
             <!--EndMobile-->
-
+          
         </div>
+        
     </nav>
 </header>

@@ -453,17 +453,15 @@ video {
 
   font-weight: 400;
 
-  font-display: swap;
-
   src: url(../fonts/SOURCESANSPRO-REGULAR.OTF) format('otf');
 }
 
 @font-face {
   font-family: 'monseratBlackBold';
 
-  font-weight: 900;
+  font-weight: bold;
 
-  font-display: swap;
+  font-style: normal;
 
   src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
 }
@@ -471,11 +469,9 @@ video {
 @font-face {
   font-family: 'monseratBlack';
 
+  font-weight: normal;
+
   font-style: normal;
-
-  font-weight: 400;
-
-  font-display: swap;
 
   src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
 }
@@ -484,10 +480,6 @@ html {
   font-family: "souceSansProRegular";
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
-
-.monseratBlackBold {
-  font-family: "monseratBlackBold";
 }
 
 *, ::before, ::after {
@@ -778,8 +770,8 @@ html {
   margin-left: 0.5rem;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
+.ml-32 {
+  margin-left: 8rem;
 }
 
 .mr-2 {
@@ -865,10 +857,6 @@ html {
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-3 {
-  height: 0.75rem;
 }
 
 .h-4 {
@@ -1448,6 +1436,11 @@ html {
   stroke: #e5e7eb;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-0 {
   padding: 0px;
 }
@@ -1690,6 +1683,11 @@ html {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+
 .text-blue-900 {
   --tw-text-opacity: 1;
   color: rgb(30 58 138 / var(--tw-text-opacity));
@@ -1768,6 +1766,11 @@ html {
 .text-salt_rivers-300 {
   --tw-text-opacity: 1;
   color: rgb(113 166 202 / var(--tw-text-opacity));
+}
+
+.text-violetEggplant-800 {
+  --tw-text-opacity: 1;
+  color: rgb(147 32 144 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -2121,8 +2124,8 @@ html {
     display: block;
   }
 
-  .sm\:h-12 {
-    height: 3rem;
+  .sm\:h-24 {
+    height: 6rem;
   }
 
   .sm\:w-\[72\.1875rem\] {
@@ -2357,6 +2360,10 @@ html {
     max-width: none;
   }
 
+  .lg\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -2509,11 +2516,6 @@ html {
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-primary-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(191 219 254 / var(--tw-bg-opacity));
-  }
-
   .dark\:bg-slate-800 {
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59 / var(--tw-bg-opacity));
@@ -2527,11 +2529,6 @@ html {
   .dark\:text-primary-500 {
     --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-primary-800 {
-    --tw-text-opacity: 1;
-    color: rgb(30 64 175 / var(--tw-text-opacity));
   }
 
   .dark\:text-white {

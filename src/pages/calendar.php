@@ -89,8 +89,7 @@
         </div>
 
         <h2 class="mb-2 text-2xl font-bold monseratBlackBold">Deuxième période de temps (6-12 mois)</h2>
-        <p class="mb-4 text-lg font-bold text-lust-100">Objectif : Mettre en Œuvre les Initiatives clés et élargir
-            l'engagement</p>
+        <p class="mb-4 text-lg font-bold text-lust-100">Objectif : Mettre en Œuvre les Initiatives clés et élargir  l'engagement</p>
 
         <div class="flex flex-wrap -mx-4">
             <div class="w-full p-4 md:w-1/2 xl:w-1/3">

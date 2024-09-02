@@ -30,3 +30,10 @@ html { scroll-behavior: smooth; }
     ---tw-text-opacity: 1;
     color: rgb(31 41 55 / var(--tw-text-opacity));
 }
+
+@font-face {
+    font-family: 'monseratBlackBold';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
+}
