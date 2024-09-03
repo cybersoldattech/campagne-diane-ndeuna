@@ -1881,6 +1881,16 @@ html {
   color: rgb(253 241 204 / var(--tw-text-opacity));
 }
 
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
+.text-violetEggplant-700 {
+  --tw-text-opacity: 1;
+  color: rgb(169 34 167 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -2031,6 +2041,11 @@ html {
 .hover\:border-indigo-600:hover {
   --tw-border-opacity: 1;
   border-color: rgb(79 70 229 / var(--tw-border-opacity));
+}
+
+.hover\:border-violetEggplant-600:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(202 45 204 / var(--tw-border-opacity));
 }
 
 .hover\:bg-gray-100:hover {

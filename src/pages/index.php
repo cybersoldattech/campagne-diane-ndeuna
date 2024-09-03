@@ -36,7 +36,9 @@
         <div class="grid px-4 py-8 mx-auto max-w-screen-2xl lg:py-16 lg:gap-8 xl:gap-0 lg:grid-cols-12">
 
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-3xl leading-none tracking-tight text-blue-900 font-monseratBlackBold md:text-5xl xl:text-6xl "><!--dark:text-white-->
+                <h1
+                    class="max-w-2xl mb-4 text-3xl leading-none tracking-tight text-blue-900 font-monseratBlackBold md:text-5xl xl:text-6xl ">
+                    <!--dark:text-white-->
                     Ensemble pour une COING d'impacts et de Solidarités.
                 </h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
@@ -46,7 +48,8 @@
                     et
                     apaisée.
                 </p>
-                <a href="index.php#actu" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
+                <a href="index.php#actu"
+                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
                     <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -182,19 +185,22 @@
                     <div
                         class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white swiper-slide md:h-96 rounded-xl hover:shadow-sm ">
                         <div class="flex items-center justify-center h-full rounded-full">
-                            <img src="../assets/images/galeries/14.jpg" loading="lazy" class="w-auto max-h-full rounded" alt="Image 14">
+                            <img src="../assets/images/galeries/14.jpg" loading="lazy" class="w-auto max-h-full rounded"
+                                alt="Image 14">
                         </div>
                     </div>
                     <div class="h-64 rounded-full swiper-slide md:h-96 ">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/2.png"  alt="Image 2" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/2.png" alt="Image 2" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
                     <div
                         class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white swiper-slide md:h-96 rounded-xl hover:shadow-sm ">
                         <div class="flex items-center justify-center h-full rounded-full">
-                            <img src="../assets/images/galeries/3.png"   alt="Image 3" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/3.png" alt="Image 3" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
                     <!-- <div
@@ -206,56 +212,64 @@
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/5.png"  alt="Image 5" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/5.png" alt="Image 5" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/6.png"  alt="Image 6" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/6.png" alt="Image 6" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/7.png"  alt="Image 7" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/7.png" alt="Image 7" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/12.jpg"  alt="Image 12" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/12.jpg" alt="Image 12" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/11.jpg"  alt="Image 11" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/11.jpg" alt="Image 11" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/15.jpg"  alt="Image 15" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/15.jpg" alt="Image 15" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/16.jpg"   alt="Image 16" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/16.jpg" alt="Image 16" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
                             class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
-                            <img src="../assets/images/galeries/17.jpg"  alt="Image 17" loading="lazy" class="w-auto max-h-full rounded">
+                            <img src="../assets/images/galeries/17.jpg" alt="Image 17" loading="lazy"
+                                class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
@@ -279,8 +293,7 @@
         <div class="px-6 mx-auto max-w-7xl lg:max-w-full lg:px-8">
             <div class="max-w-2xl mx-auto lg:max-w-full lg:text-center">
 
-                <h2
-                    class="mb-4 text-3xl font-bold tracking-tight font-monseratBlack lg:text-6xl text-corn-600 ">
+                <h2 class="mb-4 text-3xl font-bold tracking-tight font-monseratBlack lg:text-6xl text-corn-600 ">
                     <!--dark:text-white-->
                     Ma vision pour la COING
                 </h2>
@@ -297,28 +310,28 @@
             <div class="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
                 <div class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
-                <div class="image-wrapper">
-                    <img src="../assets/images/axe/axe.PNG" alt="axe 1 programme"/>
-                </div>
+                    <div class="image-wrapper">
+                        <img src="../assets/images/axe/axe.PNG" alt="axe 1 programme" />
+                    </div>
 
-                <div class="image-wrapper">
-                    <img src="../assets/images/axe/axa1-1.PNG" alt="IMAE AXE 1"/>
-                </div>
-                <div class="image-wrapper">
-                    <img src="../assets/images/axe/axe2.PNG" alt="IMAE AXE 2"/>
-                </div>
-                <div class="image-wrapper">
-                    <img src="../assets/images/axe/axe2-2.PNG" alt=" AXE 2"/>
-                </div>
-                <div class="image-wrapper">
-                    <img src="../assets/images/axe/axe3.PNG" alt="IMAE AXE 3"/>
-                </div>
-                <div class="image-wrapper">
-                    <img src="../assets/images/axe/axe3-3.PNG" alt="IMAE AXE 3"/>
-                </div>
-                    
+                    <div class="image-wrapper">
+                        <img src="../assets/images/axe/axa1-1.PNG" alt="IMAE AXE 1" />
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../assets/images/axe/axe2.PNG" alt="IMAE AXE 2" />
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../assets/images/axe/axe2-2.PNG" alt=" AXE 2" />
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../assets/images/axe/axe3.PNG" alt="IMAE AXE 3" />
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="../assets/images/axe/axe3-3.PNG" alt="IMAE AXE 3" />
+                    </div>
 
-                    
+
+
                 </div>
 
 
@@ -394,7 +407,9 @@
 
                             Réalisation
                         </span>
-                        <span class="ml-2 text-sm font-bold tracking-tight text-gray-900">Proposition de l’élaboration d’une cartographie des initiatives et expertises des organisations accréditées, présentée à l’OIF en janvier 2023
+                        <span class="ml-2 text-sm font-bold tracking-tight text-gray-900">Proposition de l’élaboration
+                            d’une cartographie des initiatives et expertises des organisations accréditées, présentée à
+                            l’OIF en janvier 2023
 
                         </span>
                     </div>
@@ -583,7 +598,7 @@
                 <div class="swiper-wrapper w-max">
                     <div class="swiper-slide">
                         <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-violetEggplant-600 hover:shadow-sm slide_active:border-violetEggplant-600">
                             <div class="">
                                 <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
                                     <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
@@ -632,7 +647,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-violetEggplant-600 hover:shadow-sm slide_active:border-violetEggplant-600">
                             <div class="">
                                 <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
                                     <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
@@ -641,14 +656,44 @@
                                             d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
                                             fill="currentColor" />
                                     </svg>
+                                    <a href="../assets/images/temoignages/1.jpg" target="_blank" class="text-violetEggplant-700">
+                                    <svg class="w-6 h-6 text-violetEggplant-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" >
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    </a>
+                                 
+
                                     <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
                                 </div>
+                                <p
+                                    class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
+                                    IIFACQES soutient la candidature de Madame Diane NDEUNA à la présidence du Comité
+                                    des Organisations internationales Non Gouvernementales (COING).
+                                    Par son engagement et ses actions pour la francophonie en général , Madame Diane
+                                    NDEUNA s'inscrit pleinement dans les objectifs de la société civil de l'OIF et
+                                    au-déla.
+                                    Ses capacités d'organisation et de conduite de projet,sa jeunesse , son dynamisme
+                                    auprès de la société civile; ses combats pour la jeunesse et spécifiquement pour la
+                                    promtion et la pleine
+                                    intégration de la femme dans la Cité; sa foi en l'economie , le numérique et le
+                                    dévelloppement durable comme des incontournables d'un développement intégré sont des
+                                    atouts et des leviers d'aujourd'hui.
+                                    et de demain.
+                                    Enfin, Madame Diane NDEUNA a toujours fait montre de capacités de de compétences
+                                    remarquables de management.
+                                    Ces qualité et cet engagement justifient et motivent le soutien de l'OING IIFACQES
+                                    décidé par son conseil d'Administration le 26 Aout 2024.
 
+                                </p>
                             </div>
                             <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
                                 <div class="block">
                                     <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500"> </span>
+                                    <span class="text-sm leading-4 text-gray-500"> Raymond ADJAKPA ABILE </span>
                                 </div>
                             </div>
                         </div>
