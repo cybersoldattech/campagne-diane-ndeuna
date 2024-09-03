@@ -37,3 +37,21 @@ html { scroll-behavior: smooth; }
     font-style: normal;
     src: url(../fonts/MONTSERRAT-BLACK.OTF) format('otf');
 }
+
+.image-wrapper {
+    position: relative; /* to contain the absolute positioned image */
+  }
+  
+  .image-wrapper img {
+    max-width: 100%; /* make images responsive */
+    transition: transform 0.3s; /* add transition effect */
+  }
+  
+  .image-wrapper img.enlarged {
+    transform: scale(1.5); /* enlarge the image */
+    z-index: 1; /* bring the enlarged image to the front */
+    position: absolute; /* take the image out of the document flow */
+    top: 50%; /* center the image vertically */
+    left: 50%; /* center the image horizontally */
+    transform: translate(-50%, -50%) scale(1.5); /* adjust the position and scale */
+  }

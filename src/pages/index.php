@@ -34,10 +34,9 @@
     <section class="mt-2 bg-white "><!--dark:bg-gray-900-->
 
         <div class="grid px-4 py-8 mx-auto max-w-screen-2xl lg:py-16 lg:gap-8 xl:gap-0 lg:grid-cols-12">
-    
+
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-3xl font-monseratBlackBold text-blue-900  leading-none tracking-tight 
-                    md:text-5xl xl:text-6xl "><!--dark:text-white-->
+                <h1 class="max-w-2xl mb-4 text-3xl leading-none tracking-tight text-blue-900 font-monseratBlackBold md:text-5xl xl:text-6xl "><!--dark:text-white-->
                     Ensemble pour une COING d'impacts et de Solidarités.
                 </h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
@@ -47,10 +46,7 @@
                     et
                     apaisée.
                 </p>
-                <a href="index.php#actu"
-                    class="inline-flex items-center justify-center px-5 py-3 mr-3 
-                    text-base font-medium text-center text-white rounded-lg bg-primary-700
-                     hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
+                <a href="index.php#actu" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
                     <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -72,7 +68,7 @@
                 <iframe
                     src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
-                    title="PR NDIORO NDIAYE"></iframe>
+                    title="DIANE NDEUNA"></iframe>
 
                 <!-- <div style="padding:75% 0 0 0;position:relative;">
                         <iframe src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  title="eden-africa-coing"></iframe>
@@ -85,10 +81,10 @@
         </div>
     </section>
 
-    <div class="items-center justify-center hidden w-full mt-4 lg:mt-0 lg:col-span-5 lg:flex">
+    <!-- <div class="items-center justify-center hidden w-full mt-4 lg:mt-0 lg:col-span-5 lg:flex">
         <img class="animate-infinite animate-duration-[6000ms] animate-ease-in  animate-bounce delay-150 duration-300 "
             src="../assets/images/logo/logo.png" loading="lazy" alt="coing-logo">
-    </div>
+    </div> -->
 
     <!-- End Hero -->
 
@@ -120,7 +116,7 @@
                 <div class="lg:pr-4">
                     <div class="lg:max-w-lg">
                         <p class="text-base font-semibold leading-7 text-indigo-600">À propos de Diane</p>
-                        <h1 class="mt-2 text-3xl font-monseratBlack  tracking-tight text-gray-900 sm:text-4xl">
+                        <h1 class="mt-2 text-3xl tracking-tight text-gray-900 font-monseratBlack sm:text-4xl">
                             Biographie de Diane
                             Ndeuna
                         </h1>
@@ -184,63 +180,87 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div
-                        class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid swiper-slide md:h-96 rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                        class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white swiper-slide md:h-96 rounded-xl hover:shadow-sm ">
                         <div class="flex items-center justify-center h-full rounded-full">
-                            <img src="../assets/images/galeries/14.jpg" loading="lazy" class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/14.jpg" loading="lazy" class="w-auto max-h-full rounded" alt="Image 14">
                         </div>
                     </div>
                     <div class="h-64 rounded-full swiper-slide md:h-96 ">
                         <div
-                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/2.png" loading="lazy" class="w-auto max-h-full">
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/2.png"  alt="Image 2" loading="lazy" class="w-auto max-h-full rounded">
                         </div>
                     </div>
                     <div
-                        class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid swiper-slide md:h-96 rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                        class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white swiper-slide md:h-96 rounded-xl hover:shadow-sm ">
                         <div class="flex items-center justify-center h-full rounded-full">
-                            <img src="../assets/images/galeries/3.png" loading="lazy" class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/3.png"   alt="Image 3" loading="lazy" class="w-auto max-h-full rounded">
                         </div>
                     </div>
-                    <div
-                        class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid swiper-slide md:h-96 rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                    <!-- <div
+                        class="w-full h-64 p-6 mx-auto transition-all duration-500 bg-white swiper-slide md:h-96 rounded-xl hover:shadow-sm ">
                         <div class="flex items-center justify-center h-full">
-                            <img src="../assets/images/galeries/13.jpg" loading="lazy" class="w-auto max-h-full">
+                            <img src="../assets/images/galeries/13.jpg"  alt="Image 13" loading="lazy" class="w-auto max-h-full">
                         </div>
-                    </div>
+                    </div> -->
                     <div class="h-64 swiper-slide md:h-96">
                         <div
-                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/5.png" loading="lazy" class="w-auto max-h-full">
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/5.png"  alt="Image 5" loading="lazy" class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
-                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/6.png" loading="lazy" class="w-auto max-h-full">
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/6.png"  alt="Image 6" loading="lazy" class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
-                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/7.png" loading="lazy" class="w-auto max-h-full">
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/7.png"  alt="Image 7" loading="lazy" class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
-                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/12.jpg" loading="lazy" class="w-auto max-h-full">
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/12.jpg"  alt="Image 12" loading="lazy" class="w-auto max-h-full rounded">
                         </div>
                     </div>
 
                     <div class="h-64 swiper-slide md:h-96">
                         <div
-                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                            <img src="../assets/images/galeries/11.jpg" loading="lazy" class="w-auto max-h-full">
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/11.jpg"  alt="Image 11" loading="lazy" class="w-auto max-h-full rounded">
                         </div>
                     </div>
+
+                    <div class="h-64 swiper-slide md:h-96">
+                        <div
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/15.jpg"  alt="Image 15" loading="lazy" class="w-auto max-h-full rounded">
+                        </div>
+                    </div>
+
+                    <div class="h-64 swiper-slide md:h-96">
+                        <div
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/16.jpg"   alt="Image 16" loading="lazy" class="w-auto max-h-full rounded">
+                        </div>
+                    </div>
+
+                    <div class="h-64 swiper-slide md:h-96">
+                        <div
+                            class="flex items-center justify-center w-full h-full p-6 mx-auto transition-all duration-500 bg-white rounded-xl hover:shadow-sm ">
+                            <img src="../assets/images/galeries/17.jpg"  alt="Image 17" loading="lazy" class="w-auto max-h-full rounded">
+                        </div>
+                    </div>
+
+
+
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -256,393 +276,53 @@
                 alt="coing-logo" />
         </div> -->
 
-        <div class="px-6 mx-auto max-w-7xl lg:px-8">
-            <div class="max-w-2xl mx-auto lg:text-center">
+        <div class="px-6 mx-auto max-w-7xl lg:max-w-full lg:px-8">
+            <div class="max-w-2xl mx-auto lg:max-w-full lg:text-center">
 
                 <h2
-                    class="mb-4 text-3xl font-bold font-monseratBlack tracking-tight lg:text-6xl text-violetEggplant-800  ">
+                    class="mb-4 text-3xl font-bold tracking-tight font-monseratBlack lg:text-6xl text-corn-600 ">
                     <!--dark:text-white-->
                     Ma vision pour la COING
                 </h2>
                 <p class="mt-4 text-base font-bold tracking-tight text-blue-700 lg:text-2xl sm:text-xl">Mes priorités
                     reposent sur trois axes principaux </p>
-                <p class="mt-6 text-lg font-semibold leading-8 text-gray-600 lg:text-2xl">J'aspire à faire de la COING
+                <p class="mt-6 text-lg font-semibold leading-8 text-gray-600 lg:text-2xl">J'aspire à contribué à faire
+                    de la COING
                     une force
                     motrice pour la Francophonie, en axant mon action sur trois piliers : Propositions concrètes et
                     opportunités - Représentation efficace et synergies - Ancrage dans la société civile francophone.
                 </p>
-                <div class="mt-6">
-
-                    <p
-                        class="mt-6 font-bold font-monseratBlack tracking-tight text-center lg:text-2xl text-dreams_spring-100 sm:text-xl">
-                        1.Propositions
-                        concrètes
-                        et opportunités </p>
-                </div>
-
             </div>
 
             <div class="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+                <div class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
-                    <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                            <div
-                                class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                </svg>
+                <div class="image-wrapper">
+                    <img src="../assets/images/axe/axe.PNG" alt="axe 1 programme"/>
+                </div>
 
-                            </div>
-                            Forum de consultation régulière
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">Instaurer des forums trimestriels de
-                            consultation avec les membres de COING pour aligner les
-                            initiatives de la société civile avec la nouvelle programmation 2024-2027 de l’OIF
-                        </dd>
-                    </div>
+                <div class="image-wrapper">
+                    <img src="../assets/images/axe/axa1-1.PNG" alt="IMAE AXE 1"/>
+                </div>
+                <div class="image-wrapper">
+                    <img src="../assets/images/axe/axe2.PNG" alt="IMAE AXE 2"/>
+                </div>
+                <div class="image-wrapper">
+                    <img src="../assets/images/axe/axe2-2.PNG" alt=" AXE 2"/>
+                </div>
+                <div class="image-wrapper">
+                    <img src="../assets/images/axe/axe3.PNG" alt="IMAE AXE 3"/>
+                </div>
+                <div class="image-wrapper">
+                    <img src="../assets/images/axe/axe3-3.PNG" alt="IMAE AXE 3"/>
+                </div>
+                    
 
-                    <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                            <div
-                                class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                </svg>
-                            </div>
-                            Mécanisme de suivi et évaluation
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">Mettre en place un système de suivi et
-                            d’évaluation des projets pour mesurer l'impact et ajuster les actions en fonction des
-                            résultats obtenus.</dd>
-                    </div>
-
-                    <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                            <div
-                                class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                </svg>
-                            </div>
-                            Initiatives pilotes
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">Lancer des projets pilotes dans divers
-                            domaines prioritaires (Langue française, éducation et formation, développement durable,
-                            numérique, économie) pour démontrer l'efficacité des approches proposées et obtenir des
-                            financements supplémentaires.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                            <div
-                                class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                </svg>
-                            </div>
-                            Crowdsourcing pour l'Innovation
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600">Mettre en place une plateforme de
-                            crowdsourcing, inspirée par des initiatives comme UpLink du Forum économique mondial, pour
-                            identifier et soutenir les solutions innovantes aux défis sociaux et environnementaux.</dd>
-                    </div>
-                    <div class="relative pl-16">
-                        <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                            <div
-                                class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                </svg>
-                            </div>
-                            Organiser Le Grand Prix de la Société civile francophone pour encourager les innovations les
-                            plus
-                            audacieuses.
-                        </dt>
-                        <dd class="mt-2 text-base leading-7 text-gray-600"></dd>
-                    </div>
-                </dl>
+                    
+                </div>
 
 
             </div>
-
-            <div class="flex justify-center">
-                <button @click="showMorevision = !showMorevision" x-show="!showMorevision"
-                    class="px-4 py-2 font-bold text-white bg-indigo-600 rounded marker:hover:bg-indigo-800">
-                    Voir plus
-                </button>
-                <button @click="showMorevision = !showMorevision" x-show="showMorevision"
-                    class="px-4 py-2 font-bold text-white bg-indigo-600 rounded hover:bg-indigo-800">
-                    Voir Moins
-                </button>
-            </div>
-
-            <div id="showMore" x-show="showMorevision"
-                x-transition:enter="transition motion-reduce:transition-none ease-out duration-300"
-                x-transition:enter-start="-translate-y-full" x-transition:enter-end="translate-y-0"
-                x-transition:leave="transition motion-reduce:transition-none ease-out duration-300"
-                x-transition:leave-start="translate-y-0" x-transition:leave-end="-translate-y-full">
-
-                <div class="max-w-2xl mx-auto lg:text-center">
-                    <p
-                        class="mt-2  font-bold monseratBlackBold  tracking-tight text-center text-dreams_spring-100 sm:text-xl">
-                        2.Représentation
-                        efficace et synergies </p>
-                </div>
-
-
-                <div class="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-
-                                </div>
-                                Plateforme de partenariats
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Créer une plateforme en ligne pour
-                                faciliter
-                                la mise en relation des OSC avec des partenaires potentiels, des bailleurs de fonds, des
-                                institutions académiques et des organisations socioprofessionnelles.
-                            </dd>
-                        </div>
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                </div>
-                                Visibilité internationale
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Organiser des événements annuels pour
-                                mettre en lumière les projets réussis des membres, avec la participation des médias
-                                internationaux francophones pour augmenter la visibilité et l'impact.</dd>
-                        </div>
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                </div>
-                                Consortiums de projets
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Encourager la formation de consortiums
-                                entre OSC pour soumettre des projets communs, augmentant ainsi les chances de
-                                financement et l'impact collectif.</dd>
-                        </div>
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                </div>
-                                Projets de Mentorat
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Inspiré par des programmes tels que
-                                MyKindaFuture au Royaume-Uni, développer une plateforme de mentorat numérique pour aider
-                                les jeunes et les professionnels à développer leurs compétences grâce à des mentors
-                                expérimentés. En tirant avantage des outils de l’intelligence artificielle.
-                            </dd>
-                        </div>
-                    </dl>
-                </div>
-
-
-
-                <div class="max-w-2xl mx-auto lg:text-center">
-                    <p
-                        class="mt-2  tracking-tight font-bold font-monseratBlack  text-center text-dreams_spring-100 sm:text-xl">
-                        3.Ancrage
-                        dans la
-                        Société Civile Francophone </p>
-                </div>
-
-
-                <div class="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-
-                                </div>
-                                Programme de partenariats locaux
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600"> Identifier et développer des
-                                partenariats stratégiques avec des OSC locales pour renforcer les capacités et maximiser
-                                l’impact des actions menées.
-                            </dd>
-                        </div>
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                </div>
-                                Échanges de bonnes pratiques
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Mettre en place des ateliers régionaux
-                                pour partager les meilleures pratiques et favoriser l’innovation entre les OSC des pays
-                                francophones.</dd>
-                        </div>
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                </div>
-                                Sessions de formation
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Organiser des formations régulières sur
-                                des thématiques clés (montage de projet, recherche de financement, gestion de projets )
-                                pour renforcer les compétences des OSC locales.</dd>
-                        </div>
-                    </dl>
-                </div>
-
-
-                <div class="max-w-2xl mx-auto lg:text-center">
-                    <p class="mt-2 font-bold tracking-tight text-center text-gray-900 sm:text-xl">Activités continues
-                    </p>
-                </div>
-
-
-                <div class="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-
-                                </div>
-                                Forums et consultations trimestriels
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600"> Maintenir des forums et des
-                                consultations réguliers pour assurer un alignement continu avec les priorités de l'OIF
-                                et les besoins des membres</dd>
-                        </div>
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                </div>
-                                Formation et renforcement des capacités continu
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Mettre à jour et fournir régulièrement
-                                des sessions de formation sur des sujets pertinents pour garantir que les OSC sont bien
-                                équipées pour gérer et soutenir leurs projets.</dd>
-                        </div>
-
-                        <div class="relative pl-16">
-                            <dt class="text-base font-bold leading-7 text-ecstasy-700">
-                                <div
-                                    class="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-                                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                </div>
-                                Communication et sensibilisation
-                            </dt>
-                            <dd class="mt-2 text-base leading-7 text-gray-600">Maintenir une stratégie de communication
-                                active pour informer et engager les parties prenantes. Utiliser divers canaux
-                                médiatiques pour promouvoir la transparence et la visibilité des activités de la COING.
-                            </dd>
-                        </div>
-                    </dl>
-                </div>
-
-            </div>
-
 
         </div>
     </div>
@@ -654,7 +334,7 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
 
-                <h2 class="mb-4 text-3xl  font-bold font-monseratBold tracking-tight lg:text-6xl text-blue-700 ">
+                <h2 class="mb-4 text-3xl font-bold tracking-tight text-blue-700 font-monseratBold lg:text-6xl ">
                     <!--dark:text-white-->
                     Réalisations
                 </h2>
@@ -662,31 +342,26 @@
                     coopération,
                     de solidarité et de justice, Diane Ndeuna s'engage à défendre les intérêts de la société civile
                     francophone. Elle croit en une Francophonie qui valorise chaque voix et qui agit pour le bien
-                    commun, dans une démarche inclusive et consensuelle.</p>
+                    commun, dans une démarche inclusive et consensuelle.<a class="text-blue-300"
+                        href="../assets/files/rapport_acti.pdf">Télécharger le rapport complet</a></p>
             </div>
 
             <div class="grid gap-8 lg:grid-cols-2">
-
-
-
-
-
                 <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
-                    <div class="flex items-center justify-between">
+                    <div class="flex items-center">
                         <span
                             class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
 
                             Réalisation
                         </span>
-                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900">Cofondation et structuration
+                        <span class="ml-2 text-sm font-bold tracking-tight text-gray-900">Cofondation et structuration
                             de la lettre d’information de la
-                            COING (février-juin
-                            2023)</span>
+                            COING</span>
                     </div>
 
                     <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
                     <div>
-                        <div class="flex  space-x-4">
+                        <div class="flex space-x-4">
                             <img class="rounded w-ful" loading="lazy" src="../assets/images/realisations/1/1.jpeg"
                                 alt="Logo eden afica" />
 
@@ -694,8 +369,8 @@
 
                     </div>
 
-                    <div class="flex flex-row  justify-center items-center mb-4">
-                        <a href="../assets/files/Programme.pdf" target="_blank"
+                    <div class="flex flex-row items-center justify-center mb-4">
+                        <a href="../assets/files/rapport_acti.pdf" target="_blank"
                             class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                             En savoir plus
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -715,18 +390,18 @@
                 <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
                     <div class="flex items-center justify-between">
                         <span
-                            class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+                            class="bg-primary-100 text-denim-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
 
                             Réalisation
                         </span>
-                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900">Proposition de l’élaboration
-                            d’une cartographie des initiatives et expertises des
-                            organisations accréditées, présentée à l’OIF en janvier 2023</span>
+                        <span class="ml-2 text-sm font-bold tracking-tight text-gray-900">Proposition de l’élaboration d’une cartographie des initiatives et expertises des organisations accréditées, présentée à l’OIF en janvier 2023
+
+                        </span>
                     </div>
 
                     <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
                     <div>
-                        <div class="flex  space-x-4">
+                        <div class="flex space-x-4">
                             <img class="rounded w-ful" loading="lazy" src="../assets/images/realisations/2/1.jpeg"
                                 alt="Logo eden afica" />
 
@@ -734,8 +409,8 @@
 
                     </div>
 
-                    <div class="flex flex-row  justify-center items-center mb-4">
-                        <a href="../assets/files/Programme.pdf" target="_blank"
+                    <div class="flex flex-row items-center justify-center mb-4">
+                        <a href="../assets/files/rapport_acti.pdf" target="_blank"
                             class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                             En savoir plus
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -756,14 +431,14 @@
 
                             Réalisation
                         </span>
-                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900">Organisation de réunions et
+                        <span class="ml-2 text-sm font-bold tracking-tight text-gray-900">Organisation de réunions et
                             soirées de réseautage pour favoriser les synergies entre les
                             OSC</span>
                     </div>
 
                     <p class="mb-5 font-light text-gray-500 "> &nbsp;</p><!--dark:text-gray-400-->
                     <div>
-                        <div class="flex  space-x-4">
+                        <div class="flex space-x-4">
                             <img class="rounded w-ful" loading="lazy" src="../assets/images/realisations/3/1.jpeg"
                                 alt="Logo eden afica" />
 
@@ -771,8 +446,8 @@
 
                     </div>
 
-                    <div class="flex flex-row  justify-center items-center mb-4">
-                        <a href="../assets/files/Programme.pdf" target="_blank"
+                    <div class="flex flex-row items-center justify-center mb-4">
+                        <a href="../assets/files/rapport_acti.pdf" target="_blank"
                             class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                             En savoir plus
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -787,23 +462,25 @@
                 </article>
 
                 <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
-                    <div class="flex items-center justify-between">
+                    <div class="flex items-center">
                         <span
                             class="bg-primary-100 text-primary-800 text-xs font-bold monseratBlackBold inline-flex items-center px-2.5 py-0.5 rounded ">
-            
+
                             Réalisation
                         </span>
-                        <span class="text-sm font-bold tracking-tight ml-2 text-gray-900"> Mobilisation des OSC aux Jeux de la Francophonie 2023 à Kinshasa</span>
+                        <span class="ml-2 text-sm font-bold tracking-tight text-gray-900"> Mobilisation des OSC aux Jeux
+                            de la Francophonie 2023 à Kinshasa</span>
                     </div>
 
                     <p class="mb-5 font-light text-gray-500 "> &nbsp;</p>
                     <div class="mb-4 swiper default-carousel swiper-container">
-                        <div>  <img class="rounded w-full object-cover " loading="lazy" src="../assets/images/realisations/4/1.jpg" alt="Logo eden afica" /> </div>                   
-                      
+                        <div> <img class="object-cover w-full rounded " loading="lazy"
+                                src="../assets/images/realisations/4/1.jpg" alt="Logo eden afica" /> </div>
+
                     </div>
 
-                    <div class="flex flex-row  justify-center items-center mb-4">
-                        <a href="../assets/files/Programme.pdf" target="_blank"
+                    <div class="flex flex-row items-center justify-center mb-4">
+                        <a href="../assets/files/programme.pdf" target="_blank"
                             class="inline-flex items-center font-medium text-primary-600 hover:underline">
                             En savoir plus
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -814,7 +491,7 @@
                             </svg>
                         </a>
                     </div>
-                    
+
                 </article>
 
 
@@ -827,12 +504,12 @@
     <section class="bg-white " id="actu"><!--dark:bg-gray-900-->
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto mb-8 text-center lg:mb-16">
-                <h2
-                    class="mb-4 text-3xl font-bold font-monseratBlack   tracking-tight lg:text-6xl text-blue-800 ">
+                <h2 class="mb-4 text-3xl font-bold tracking-tight text-ecstasy-800 font-monseratBlack lg:text-6xl ">
                     <!--dark:text-white-->
                     Actualités
                 </h2>
-                <p class="font-bold text-gray-500 sm:text-xl "><!--dark:text-gray-400-->  Actualités de la Campagne de Diane  Ndeuna.</p>
+                <p class="font-bold text-gray-500 sm:text-xl "><!--dark:text-gray-400--> Actualités de la Campagne de
+                    Diane Ndeuna.</p>
             </div>
 
             <div class="swiper mySwiper">
@@ -895,10 +572,10 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="mb-16">
                 <span
-                    class="block mb-2 text-3xl text-center lg:text-6xl font-bold font-monseratBlack  text-blue-800">Témoignages
+                    class="block mb-2 text-3xl font-bold text-center text-violetEggplant-600 lg:text-6xl font-monseratBlack">Témoignages
                 </span>
                 <h2 class="text-xl font-bold text-center text-gray-900 ">Découvrez les témoignages de soutiens
-                    influents et d'électeurs convaincus par la vision de Diane.</h2>
+                    convaincus par la vision de Diane.</h2>
             </div>
             <!--Slider wrapper-->
 
@@ -919,18 +596,59 @@
                                 </div>
                                 <p
                                     class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    Diane Ndeuna est une force motrice au sein de la COING. J'ai eu l'opportunité de
-                                    travailler avec elle lors de mon mandat, et j'ai été impressionnée par sa capacité à
-                                    mobiliser des ressources et à mener des projets concrets sans budget dédié. Diane a
-                                    démontré qu'elle peut transformer des défis en opportunités, et je suis convaincue
-                                    qu'elle saura porter la COING vers de nouveaux sommets."
+                                    Bonjour chers collègues.
+
+
+                                    Je soutiens la candidature de Diane pour la présidence de la COING en raison de son
+                                    engagement continu envers cette entité commune. Son leadership démontré en tant que
+                                    présidente de la commission D prouve ses réelles capacités.
+
+                                    Sa créativité, sa vivacité, son efficacité, ses compétences et ses qualités font
+                                    d'elle une candidate exceptionnelle par rapport aux autres postulants, compte tenu
+                                    de ses performances au sein de la commission D, notamment en matière d'activités et
+                                    de résultats.
+
+                                    De plus, pour respecter l'exigence de la diversité géographique de la Francophonie
+                                    et tenant compte du fait qu'il y a eu une présidence française de 2014 à 2018, une
+                                    présidence canadienne de 2018 à 2022, et une autre présidence française de 2022 à
+                                    2024, il est temps de passer le flambeau à un autre continent, l'Afrique, d'où vient
+                                    la majorité des pays membres de la Francophonie.
+
+                                    Par ailleurs, il n'y a jamais eu de jeune à ce poste et la jeunesse est une priorité
+                                    pour la Francophonie.
+
+                                    En conclusion, je recommande à tous et à toutes de soutenir la candidature de Diane
+                                    à la présidence de la COING.
+
                                 </p>
                             </div>
                             <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
                                 <div class="block">
                                     <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500">Ancienne Présidente de la COING
-                                        (2018-2022) </span>
+                                    <span class="text-sm leading-4 text-gray-500">Assiba du REJADD-Togo </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                            <div class="">
+                                <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
+                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
+                                </div>
+
+                            </div>
+                            <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
+                                <div class="block">
+                                    <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
+                                    <span class="text-sm leading-4 text-gray-500"> </span>
                                 </div>
                             </div>
                         </div>

@@ -20,7 +20,7 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Questions fréquentes
-                sur les positions de Diane et ses projets pour la COING."</h2>
+                sur les positions de Diane et ses projets pour la COING.</h2>
             <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
                 <div>
                     <div class="mb-10">
@@ -33,9 +33,7 @@
                             </svg>
                             Comment nous aider ?
                         </h3>
-                        <p class="text-gray-500 dark:text-gray-400">Vous pouvez soutenir la campagne de Diane en
-                            partageant nos contenus sur les réseaux sociaux, en devenant bénévole, ou en contribuant
-                            financièrement. Chaque geste compte pour bâtir une Francophonie plus forte.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Vous pouvez soutenir la campagne de Diane en offrant vos competences pour co-construire une COING  plus solidaire</p>
                     </div>
 
                 </div>

@@ -903,6 +903,10 @@ html {
   width: 2.5rem;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -1126,6 +1130,10 @@ html {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1228,6 +1236,16 @@ html {
 .divide-slate-300 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-divide-opacity));
+}
+
+.divide-violetEggplant-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(228 77 232 / var(--tw-divide-opacity));
+}
+
+.divide-corn-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(239 196 0 / var(--tw-divide-opacity));
 }
 
 .place-self-center {
@@ -1336,6 +1354,11 @@ html {
   border-color: transparent;
 }
 
+.border-corn-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 240 65 / var(--tw-border-opacity));
+}
+
 .bg-blue-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(147 197 253 / var(--tw-bg-opacity));
@@ -1389,6 +1412,26 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -1678,6 +1721,11 @@ html {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-blue-300 {
+  --tw-text-opacity: 1;
+  color: rgb(147 197 253 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -1701,6 +1749,11 @@ html {
 .text-dreams_spring-100 {
   --tw-text-opacity: 1;
   color: rgb(248 206 40 / var(--tw-text-opacity));
+}
+
+.text-ecstasy-700 {
+  --tw-text-opacity: 1;
+  color: rgb(188 65 18 / var(--tw-text-opacity));
 }
 
 .text-funky_frog-100 {
@@ -1778,14 +1831,54 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-corn-800 {
+  --tw-text-opacity: 1;
+  color: rgb(152 85 10 / var(--tw-text-opacity));
+}
+
+.text-corn-600 {
+  --tw-text-opacity: 1;
+  color: rgb(209 153 0 / var(--tw-text-opacity));
+}
+
+.text-corn-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 196 0 / var(--tw-text-opacity));
+}
+
+.text-corn-900 {
+  --tw-text-opacity: 1;
+  color: rgb(116 69 15 / var(--tw-text-opacity));
+}
+
+.text-corn-700 {
+  --tw-text-opacity: 1;
+  color: rgb(166 109 2 / var(--tw-text-opacity));
+}
+
+.text-violetEggplant-500 {
+  --tw-text-opacity: 1;
+  color: rgb(228 77 232 / var(--tw-text-opacity));
+}
+
+.text-violetEggplant-600 {
+  --tw-text-opacity: 1;
+  color: rgb(202 45 204 / var(--tw-text-opacity));
+}
+
 .text-ecstasy-800 {
   --tw-text-opacity: 1;
   color: rgb(149 52 23 / var(--tw-text-opacity));
 }
 
-.text-ecstasy-700 {
+.text-denim-800 {
   --tw-text-opacity: 1;
-  color: rgb(188 65 18 / var(--tw-text-opacity));
+  color: rgb(6 91 213 / var(--tw-text-opacity));
+}
+
+.text-dreams_spring-800 {
+  --tw-text-opacity: 1;
+  color: rgb(253 241 204 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -1978,6 +2071,11 @@ html {
 .hover\:bg-salt_rivers-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(148 188 216 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-corn-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 231 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-br:hover {
@@ -2370,6 +2468,10 @@ html {
     max-width: none;
   }
 
+  .lg\:max-w-full {
+    max-width: 100%;
+  }
+
   .lg\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -2380,6 +2482,22 @@ html {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
