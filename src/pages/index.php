@@ -321,13 +321,13 @@
                         <img src="../assets/images/axe/axe2.PNG" loading="lazy" alt="IMAE AXE 2" />
                     </div>
                     <div class="image-wrapper">
-                        <img src="../assets/images/axe/axe2-2.PNG"  loading="lazy" alt=" AXE 2" />
+                        <img src="../assets/images/axe/axe2-2.PNG" loading="lazy" alt=" AXE 2" />
                     </div>
                     <div class="image-wrapper">
                         <img src="../assets/images/axe/axe3.PNG" loading="lazy" alt="IMAE AXE 3" />
                     </div>
                     <div class="image-wrapper">
-                        <img src="../assets/images/axe/axe3-3.PNG"  loading="lazy" alt="IMAE AXE 3" />
+                        <img src="../assets/images/axe/axe3-3.PNG" loading="lazy" alt="IMAE AXE 3" />
                     </div>
 
 
@@ -355,8 +355,8 @@
                     coopération,
                     de solidarité et de justice, Diane Ndeuna s'engage à défendre les intérêts de la société civile
                     francophone. Elle croit en une Francophonie qui valorise chaque voix et qui agit pour le bien
-                    commun, dans une démarche inclusive et consensuelle.<a class="text-blue-300" target="_blank" download
-                        href="../assets/files/rapport_acti.pdf">Télécharger le rapport complet</a></p>
+                    commun, dans une démarche inclusive et consensuelle.<a class="text-blue-300" target="_blank"
+                        download href="../assets/files/rapport_acti.pdf">Télécharger le rapport complet</a></p>
             </div>
 
             <div class="grid gap-8 lg:grid-cols-2">
@@ -537,23 +537,20 @@
                                     class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
                                     Actualité
                                 </span>
-                                <span class="text-sm">10 août 2024</span>
+                                <span class="text-sm">03 Septembre 2024</span>
                             </div>
                             <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
-                                <a href="#">Annonce
-                                    officielle de soutien du Réseau Francophone pour l'Égalité Femme-Homme</a>
+                                <a href="#">Lancement de la campagne de Diane Ndeuna : un événement marquant pour
+                                    l’avenir de la société civile francophone.
+                                </a>
                             </h2>
                             <p class="mb-5 font-light text-gray-500 "><!--dark:text-gray-400-->
-                                Le Réseau Francophone pour
-                                l'Égalité
-                                Femme-Homme a officiellement annoncé son soutien à la candidature de Diane Ndeuna pour
-                                la
-                                présidence de la COING. Dans leur déclaration, ils ont salué son engagement en faveur de
-                                l'égalité des sexes et son leadership exemplaire au sein de la Francophonie. Ce soutien
-                                renforce
-                                la crédibilité de Diane en tant que candidate capable de défendre les valeurs
-                                d'inclusion et de
-                                justice sociale</p>
+                                Diane Ndeuna, figure emblématique de l'engagement sociétal et candidate à la présidence
+                                de la Conférence Internationale des Organisations Non-Gouvernementales (COING) de
+                                l'Organisation Internationale de la Francophonie (OIF), lance officiellement sa
+                                campagne. Cet événement, inédit dans l’histoire de la COING, promet d’être un moment
+                                fort de réflexion et d'échange autour des défis et opportunités de la Francophonie.
+                            </p>
                             <div class="flex items-center justify-between">
 
                                 <a href="javascript:void(0);"
@@ -611,26 +608,26 @@
                                 </div>
                                 <p
                                     class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    Bonjour chers collègues.
+                                    Bonjour chers collègues.<br />
 
 
                                     Je soutiens la candidature de Diane pour la présidence de la COING en raison de son
                                     engagement continu envers cette entité commune. Son leadership démontré en tant que
-                                    présidente de la commission D prouve ses réelles capacités.
+                                    présidente de la commission D prouve ses réelles capacités.<br />
 
                                     Sa créativité, sa vivacité, son efficacité, ses compétences et ses qualités font
                                     d'elle une candidate exceptionnelle par rapport aux autres postulants, compte tenu
                                     de ses performances au sein de la commission D, notamment en matière d'activités et
-                                    de résultats.
+                                    de résultats.<br />
 
                                     De plus, pour respecter l'exigence de la diversité géographique de la Francophonie
                                     et tenant compte du fait qu'il y a eu une présidence française de 2014 à 2018, une
                                     présidence canadienne de 2018 à 2022, et une autre présidence française de 2022 à
                                     2024, il est temps de passer le flambeau à un autre continent, l'Afrique, d'où vient
-                                    la majorité des pays membres de la Francophonie.
+                                    la majorité des pays membres de la Francophonie.<br />
 
                                     Par ailleurs, il n'y a jamais eu de jeune à ce poste et la jeunesse est une priorité
-                                    pour la Francophonie.
+                                    pour la Francophonie.<br />
 
                                     En conclusion, je recommande à tous et à toutes de soutenir la candidature de Diane
                                     à la présidence de la COING.
@@ -656,23 +653,25 @@
                                             d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
                                             fill="currentColor" />
                                     </svg>
-                                    <a href="../assets/images/temoignages/1.jpg" target="_blank" class="text-violetEggplant-700">
-                                    <svg class="w-6 h-6 text-violetEggplant-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" >
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
+                                    <a href="../assets/images/temoignages/1.jpg" target="_blank"
+                                        class="text-violetEggplant-700">
+                                        <svg class="w-6 h-6 text-violetEggplant-700" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
                                     </a>
-                                 
+
 
                                     <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
                                 </div>
-                                <p
+                                <div
                                     class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    IIFACQES soutient la candidature de Madame Diane NDEUNA à la présidence du Comité
-                                    des Organisations internationales Non Gouvernementales (COING).
+                                    <span class="mb-4">IIFACQES soutient la candidature de Madame Diane NDEUNA à la
+                                        présidence du Comité
+                                        des Organisations internationales Non Gouvernementales (COING).</span><br />
                                     Par son engagement et ses actions pour la francophonie en général , Madame Diane
                                     NDEUNA s'inscrit pleinement dans les objectifs de la société civil de l'OIF et
                                     au-déla.
@@ -684,11 +683,12 @@
                                     atouts et des leviers d'aujourd'hui.
                                     et de demain.
                                     Enfin, Madame Diane NDEUNA a toujours fait montre de capacités de de compétences
-                                    remarquables de management.
-                                    Ces qualité et cet engagement justifient et motivent le soutien de l'OING IIFACQES
-                                    décidé par son conseil d'Administration le 26 Aout 2024.
+                                    remarquables de management.<br />
+                                    <span class="mt-4">Ces qualité et cet engagement justifient et motivent le soutien
+                                        de l'OING IIFACQES
+                                        décidé par son conseil d'Administration le 26 Aout 2024.</span>
 
-                                </p>
+                                </div>
                             </div>
                             <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
                                 <div class="block">
