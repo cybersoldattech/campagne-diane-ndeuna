@@ -7,7 +7,7 @@ function animateOnScroll() {
         toAnimate.forEach((element) => {
             element.classList.add('animate-jump-in', 'animate-once');
         });
-        toAnimate_2.classList.add(' animate-fade-left' ,  'animate-once' ,  'animate-duration-[2000ms]' ,  'animate-ease-in');
+        toAnimate_2.classList.add('animate-fade-left' ,  'animate-once' ,  'animate-duration-[2000ms]' ,  'animate-ease-in');
     }
 }
 

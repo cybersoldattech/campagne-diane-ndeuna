@@ -14,7 +14,7 @@
     <title>Campagne:Home</title>
 </head>
 
-<body x-data="{ modelOpen: false }">
+<body x-data="{ modelOpen: false , modalActu:false }">
 
     <!-- Start Banner -->
     <?php include "../sections/banner.php" ?>
@@ -291,7 +291,7 @@
         </div> -->
 
         <div class="px-6 mx-auto max-w-7xl lg:max-w-full lg:px-8">
-            <div class="max-w-2xl mx-auto lg:max-w-full lg:text-center" >
+            <div class="max-w-2xl mx-auto lg:max-w-full lg:text-center">
 
                 <h2 class="mb-4 text-3xl font-bold tracking-tight font-monseratBlack lg:text-6xl text-corn-600 ">
                     <!--dark:text-white-->
@@ -553,7 +553,7 @@
                             </p>
                             <div class="flex items-center justify-between">
 
-                                <a href="javascript:void(0);"
+                                <a href="javascript:void(0);" @click="modalActu =!modalActu"
                                     class="inline-flex items-center font-medium text-primary-600 hover:underline"><!--dark:text-primary-500-->
                                     En savoir plus
                                     <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
@@ -589,89 +589,41 @@
                 <h2 class="text-xl font-bold text-center text-gray-900 ">Découvrez les témoignages de soutiens
                     convaincus par la vision de Diane.</h2>
             </div>
-            <!--Slider wrapper-->
-
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper w-max">
-                    <div class="swiper-slide">
-                        <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-violetEggplant-600 hover:shadow-sm slide_active:border-violetEggplant-600">
-                            <div class="">
-                                <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
-                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                    <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
-                                </div>
-                                <p
-                                    class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    Bonjour chers collègues.<br />
 
 
-                                    Je soutiens la candidature de Diane pour la présidence de la COING en raison de son
-                                    engagement continu envers cette entité commune. Son leadership démontré en tant que
-                                    présidente de la commission D prouve ses réelles capacités.<br />
+            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <!-- Grid -->
+                <div class="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
+                    <div class="hidden mb-24 md:block md:mb-0 sm:px-6">
+                        <div class="relative">
+                            <img class="rounded-xl" src="../assets/images/temoignages/2.jpg"
+                                alt="Temoignange Président Raymond ADJAKPA ABILE " loading="lazy">
 
-                                    Sa créativité, sa vivacité, son efficacité, ses compétences et ses qualités font
-                                    d'elle une candidate exceptionnelle par rapport aux autres postulants, compte tenu
-                                    de ses performances au sein de la commission D, notamment en matière d'activités et
-                                    de résultats.<br />
-
-                                    De plus, pour respecter l'exigence de la diversité géographique de la Francophonie
-                                    et tenant compte du fait qu'il y a eu une présidence française de 2014 à 2018, une
-                                    présidence canadienne de 2018 à 2022, et une autre présidence française de 2022 à
-                                    2024, il est temps de passer le flambeau à un autre continent, l'Afrique, d'où vient
-                                    la majorité des pays membres de la Francophonie.<br />
-
-                                    Par ailleurs, il n'y a jamais eu de jeune à ce poste et la jeunesse est une priorité
-                                    pour la Francophonie.<br />
-
-                                    En conclusion, je recommande à tous et à toutes de soutenir la candidature de Diane
-                                    à la présidence de la COING.
-
-                                </p>
-                            </div>
-                            <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
-                                <div class="block">
-                                    <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500">Assiba du REJADD-Togo </span>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div
-                            class="w-full p-6 mx-auto transition-all duration-500 bg-white border border-gray-300 border-solid group rounded-xl hover:border-violetEggplant-600 hover:shadow-sm slide_active:border-violetEggplant-600">
-                            <div class="">
-                                <div class="flex items-center gap-2 transition-all duration-500 mb-7 text-amber-500 ">
-                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                    <a href="../assets/images/temoignages/1.jpg" target="_blank"
-                                        class="text-violetEggplant-700">
-                                        <svg class="w-6 h-6 text-violetEggplant-700" xmlns="http://www.w3.org/2000/svg"
-                                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                        </svg>
-                                    </a>
+                    <!-- End Col -->
 
+                    <div>
+                        <!-- Blockquote -->
+                        <blockquote class="relative">
+                            <svg class="absolute top-0 text-gray-200 transform -translate-x-8 -translate-y-4 start-0 size-24"
+                                width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path
+                                    d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z"
+                                    fill="currentColor" />
+                            </svg>
 
-                                    <!-- <span class="text-base font-semibold text-indigo-600">4.9</span> -->
-                                </div>
-                                <div
-                                    class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
+                            <div class="relative z-10">
+                                <p class="mb-3 text-sm font-bold tracking-wide text-gray-500 uppercase">
+                                    Lettre de soutien à la candidature de Diane NDEUNA à la Présidence de la COING
+                                </p>
+
+                                <p
+                                    class="text-sm font-medium text-gray-800 md:text-xl md:leading-normal xl:text-xl xl:leading-normal">
                                     IIFACQES soutient la candidature de Madame Diane NDEUNA à la
-                                        présidence du Comité
-                                        des Organisations internationales Non Gouvernementales (COING).<br />
+                                    présidence du Comité
+                                    des Organisations internationales Non Gouvernementales (COING).<br />
                                     Par son engagement et ses actions pour la francophonie en général , Madame Diane
                                     NDEUNA s'inscrit pleinement dans les objectifs de la société civil de l'OIF et
                                     au-déla.
@@ -684,29 +636,115 @@
                                     et de demain.
                                     Enfin, Madame Diane NDEUNA a toujours fait montre de capacités de de compétences
                                     remarquables de management.<br />
-                                   Ces qualité et cet engagement justifient et motivent le soutien
-                                        de l'OING IIFACQES
-                                        décidé par son conseil d'Administration le 26 Aout 2024.
+                                    Ces qualité et cet engagement justifient et motivent le soutien
+                                    de l'OING IIFACQES
+                                    décidé par son conseil d'Administration le 26 Aout 2024.
+                                </p>
+                            </div>
 
+                            <footer class="mt-6">
+                                <div class="flex items-center">
+                                    <div class="md:hidden shrink-0">
+                                        <img class="rounded-full size-12" src="../assets/images/temoignages/face-2.jpg"
+                                            alt="Avatar" loading="leazy">
+                                    </div>
+                                    <div class="ms-4 md:ms-0">
+                                        <div class="text-base font-semibold text-gray-800">Président Raymond ADJAKPA
+                                            ABILE</div>
+
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
-                                <div class="block">
-                                    <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500">Président Raymond ADJAKPA ABILE </span>
-                                </div>
-                            </div>
+                            </footer>
+
+                        </blockquote>
+                        <!-- End Blockquote -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Grid -->
+            </div>
+
+            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <!-- Grid -->
+                <div class="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
+                    <div class="hidden mb-24 md:block md:mb-0 sm:px-6">
+                        <div class="relative">
+                            <img class="rounded-xl" src="../assets/images/temoignages/3.jpg"
+                                alt="Temoignange Assiba du REJADD-Togo " loading="lazy">
+
                         </div>
                     </div>
+                    <!-- End Col -->
+
+                    <div>
+                        <!-- Blockquote -->
+                        <blockquote class="relative">
+                            <svg class="absolute top-0 text-gray-200 transform -translate-x-8 -translate-y-4 start-0 size-24"
+                                width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path
+                                    d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                            <div class="relative z-10">
+                                <!-- <p class="mb-3 text-sm font-bold tracking-wide text-gray-500 uppercase">
+                                    Témoignage de soutien
+                                </p> -->
+
+                                <p
+                                    class="text-sm font-medium text-gray-800 md:text-xl md:leading-normal xl:text-xl xl:leading-normal">
+                                    Bonjour chers collègues.<br>
 
 
+                                    Je soutiens la candidature de Diane pour la présidence de la COING en raison de son
+                                    engagement continu envers cette entité commune. Son leadership démontré en tant que
+                                    présidente de la commission D prouve ses réelles capacités.<br>
+
+                                    Sa créativité, sa vivacité, son efficacité, ses compétences et ses qualités font
+                                    d'elle une candidate exceptionnelle par rapport aux autres postulants, compte tenu
+                                    de ses performances au sein de la commission D, notamment en matière d'activités et
+                                    de résultats.<br>
+
+                                    De plus, pour respecter l'exigence de la diversité géographique de la Francophonie
+                                    et tenant compte du fait qu'il y a eu une présidence française de 2014 à 2018, une
+                                    présidence canadienne de 2018 à 2022, et une autre présidence française de 2022 à
+                                    2024, il est temps de passer le flambeau à un autre continent, l'Afrique, d'où vient
+                                    la majorité des pays membres de la Francophonie.<br>
+
+                                    Par ailleurs, il n'y a jamais eu de jeune à ce poste et la jeunesse est une priorité
+                                    pour la Francophonie.<br>
+
+                                    En conclusion, je recommande à tous et à toutes de soutenir la candidature de Diane
+                                    à la présidence de la COING.
+                                </p>
+                            </div>
+
+                            <footer class="mt-6">
+                                <div class="flex items-center">
+                                    <div class="md:hidden shrink-0">
+                                        <img class="rounded-full size-12" src="../assets/images/temoignages/face-3.jpg"
+                                            alt="Temoignage Monsieur Assiba du REJADD-Togo" loading="lazy" />
+                                    </div>
+                                    <div class="ms-4 md:ms-0">
+                                        <div class="text-base font-semibold text-gray-800">Monsieur Assiba du
+                                            REJADD-Togo </div>
+
+                                    </div>
+                                </div>
+                            </footer>
+
+                        </blockquote>
+                        <!-- End Blockquote -->
+                    </div>
+                    <!-- End Col -->
                 </div>
-                <div class="swiper-pagination"></div>
+                <!-- End Grid -->
             </div>
+
         </div>
     </section>
-    <!--End Temoingnages -->
-
+    <!-- End Testimonials -->
 
     <!--Start Scroll to top -->
     <?php include "../sections/scroll.php" ?>
@@ -771,9 +809,9 @@
     <!--FIN TODO MODAL-->
 
 
-    
+
     <!--TODO MODAL-->
-    <div x-show="modelActuOpen" style="display:none;" class="fixed inset-0 z-50 flex items-center justify-center">
+    <div x-show="modalActu" style="display:none;" class="fixed inset-0 z-50 flex items-center justify-center">
         <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
         <div class="relative w-full max-w-screen-md m-4 overflow-hidden bg-white rounded-lg shadow-xl"
             x-transition:enter="transition ease-out duration-300 transform opacity-0 scale-95"
@@ -782,45 +820,61 @@
             x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" x-cloak>
             <!-- Modal panel -->
             <div class="px-6 py-4">
-                <h3 class="text-lg font-medium leading-6 text-gray-900"> Biographie de Diane Ndeuna</h3>
+                <h3 class="text-lg font-medium leading-6 text-gray-900"> Actualité : <span class="font-bold"> Lancement de la campagne de
+                        Diane Ndeuna</span></h3>
             </div>
             <div class="max-w-screen-md p-6 overflow-y-auto prose"
                 style="max-height: 70vh; background-color: #fff; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);">
 
-                <p class="mb-4">Diane Ndeuna est une leader dynamique et expérimentée dans le domaine des
-                    organisations de la société civile, tant au Cameroun qu'à l'international. En tant que
-                    Présidente exécutive de EDEN AFRICA, elle s'est distinguée par son engagement profond pour
-                    l'éducation, l'entrepreneuriat, et l'autonomisation des femmes, tout en portant une vision
-                    stratégique visant à renforcer l'impact des OSC dans l'espace francophone.</p>
+                <p>
+                    Lancement de la campagne de Diane Ndeuna : un événement marquant pour l’avenir de la société civile
+                    francophone.
+                    Diane Ndeuna, figure emblématique de l'engagement sociétal et candidate à la présidence de la
+                    Conférence Internationale des Organisations Non-Gouvernementales (COING) de l'Organisation
+                    Internationale de la Francophonie (OIF), lance officiellement sa campagne. Cet événement, inédit
+                    dans l’histoire de la COING, promet d’être un moment fort de réflexion et d'échange autour des défis
+                    et opportunités de la Francophonie.</p>
+                    <p>
+                    Un rendez-vous pour une COING d'impacts et de solidarités
+                    Le lancement de la campagne de Diane Ndeuna a lieu lors d’une réunion en ligne interactive, prévue
+                    ce 3 septembre 2024. Cette réunion réunira non seulement les organisations accréditées de la COING,
+                    mais aussi les partenaires stratégiques et des organisations non accréditées qui ont activement
+                    participé aux activités de réseautage de la Commission D.
+                    Date : 3 septembre 2024
+                    Heure :</p>
+                    <ul class="font-bold">
+                        <li>* 16h (GMT+1) Afrique Centrale</li>
+                        <li>* 17h (Paris)</li>
+                        <li>* 15h (Dakar)</li>
+                        <li>* 11h (Québec)</li>
+                    </ul>
 
-                <p class="mb-4">Forte d'une expérience de plus de 20 ans, Diane a collaboré avec de nombreuses
-                    institutions
-                    publiques internationales et nationales, menant des initiatives concrètes pour promouvoir
-                    des causes telles que l'éducation, les droits humains, l'égalité des genres, et le
-                    développement durable. Son parcours témoigne de sa capacité à transformer des défis
-                    complexes en opportunités, à mobiliser des ressources, et à créer des synergies bénéfiques
-                    pour les OSC qu'elle représente.</p>
-                <p class="mb-4">Son leadership et son expertise ont été reconnus au plus haut niveau, notamment
-                    par le
-                    Ministère des Relations Extérieures du Cameroun, qui l'a nommée membre du Conseil
-                    Scientifique de la 44ème Conférence Ministérielle de la Francophonie en 2023. À cette
-                    occasion, elle a joué un rôle clé en facilitant les invitations pour les OING/ONG désireuses
-                    de participer à la cérémonie d'ouverture et en organisant le Forum Jeunesse et Société
-                    Civile francophone, rassemblant des participants en présentiel et en distanciel.</p>
-                <p class="mb-4">Parmi ses réalisations notables, Diane a également orchestré l'organisation de
-                    soirées de
-                    réseautage pour renforcer les synergies entre les OSC, participé à des événements
-                    internationaux comme la COP 28, et dirigé des formations en montage de projets et en
-                    recherche de financement pour plus de 60 acteurs de la société civile francophone. Elle a
-                    aussi collaboré étroitement avec l'OIF sur des initiatives telles que la régulation des
-                    plateformes pour l'information comme bien public.</p>
-                <p class="mb-4">Diane Ndeuna incarne un leadership visionnaire et inclusif, déterminé à faire de
-                    la COING une
-                    force motrice pour une Francophonie plus connectée et plus impactante.</p>
+                    <p>
+                    Une vision pour une COING plus apaisée et vertueuse
+                    Diane Ndeuna présentera sa vision pour une COING rénovée et réinventée, qui repose sur trois piliers
+                    stratégiques : la mise en place de propositions concrètes et de nouvelles opportunités, le
+                    renforcement d’une représentation efficace et des synergies, et enfin l’ancrage solide dans la
+                    société civile francophone. Diane souhaite une COING plus apaisée, où le dialogue prime sur la
+                    confrontation, et où les valeurs de solidarité et d'inclusion sont mises en avant.
+                    Un engagement pour la transformation
+                    </p>
+              
+
+                   </p>
+                    À travers ce lancement, Diane Ndeuna souhaite engager un dialogue ouvert avec tous les membres de la
+                    COING et au-delà, afin de co-construire une vision partagée. Cet événement marquera le début d'une
+                    série d'échanges ouverts et inclusifs, permettant de recueillir les attentes et les aspirations de
+                    chacun pour l'avenir de la Francophonie.
+                    Pour plus d’informations, pour obtenir les détails d'accès à la réunion Zoom, ou pour organiser une
+                    interview avec Diane Ndeuna, veuillez nous contacter à l’adresse suivante : [adresse e-mail] ou
+                    [numéro de téléphone].</p>
+                    Ensemble, pour une COING d'impacts et de solidarités.
+                </p>
+
 
             </div>
             <div class="flex flex-row justify-end gap-4 p-4 px-4 py-3 bg-gray-50 sm:px-6 align-items">
-                <button @click="modelOpen = false" type="button"
+                <button @click="modalActu = false" type="button"
                     class="inline-flex justify-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-lust-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 sm:w-auto sm:text-sm">
                     Fermer </button>
             </div>
