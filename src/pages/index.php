@@ -669,9 +669,9 @@
                                 </div>
                                 <div
                                     class="pb-8 text-base leading-6 text-gray-600 transition-all duration-500 group-hover:text-gray-800 slide_active:text-gray-800">
-                                    <span class="mb-4">IIFACQES soutient la candidature de Madame Diane NDEUNA à la
+                                    IIFACQES soutient la candidature de Madame Diane NDEUNA à la
                                         présidence du Comité
-                                        des Organisations internationales Non Gouvernementales (COING).</span><br />
+                                        des Organisations internationales Non Gouvernementales (COING).<br />
                                     Par son engagement et ses actions pour la francophonie en général , Madame Diane
                                     NDEUNA s'inscrit pleinement dans les objectifs de la société civil de l'OIF et
                                     au-déla.
@@ -684,16 +684,16 @@
                                     et de demain.
                                     Enfin, Madame Diane NDEUNA a toujours fait montre de capacités de de compétences
                                     remarquables de management.<br />
-                                    <span class="mt-4">Ces qualité et cet engagement justifient et motivent le soutien
+                                   Ces qualité et cet engagement justifient et motivent le soutien
                                         de l'OING IIFACQES
-                                        décidé par son conseil d'Administration le 26 Aout 2024.</span>
+                                        décidé par son conseil d'Administration le 26 Aout 2024.
 
                                 </div>
                             </div>
                             <div class="flex items-center gap-5 pt-5 border-t border-gray-200 border-solid">
                                 <div class="block">
                                     <h5 class="mb-1 font-medium text-gray-900 transition-all duration-500"></h5>
-                                    <span class="text-sm leading-4 text-gray-500"> Raymond ADJAKPA ABILE </span>
+                                    <span class="text-sm leading-4 text-gray-500">Président Raymond ADJAKPA ABILE </span>
                                 </div>
                             </div>
                         </div>
