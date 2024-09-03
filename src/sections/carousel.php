@@ -66,6 +66,14 @@ updateCurrentSlide() {
             aria-labelledby="carousel-content-label"
             class="flex w-full overflow-x-hidden snap-x snap-mandatory">
            
+
+            <li x-bind="disableNextAndPreviousButtons"
+                class="flex flex-col items-center justify-center w-full p-0 shrink-0 snap-start" role="option">
+                <img class="w-full "src="../assets/images/caroussel/2.jpg"  alt="coing caroussel 2">
+
+                <button x-bind="focusableWhenVisible" class="px-4 py-2 text-sm"
+                    ></button>
+            </li>
            
             <li x-bind="disableNextAndPreviousButtons"
                 class="flex flex-col items-center justify-center w-full p-0 shrink-0 snap-start" role="option">
@@ -75,13 +83,7 @@ updateCurrentSlide() {
                     ></button>
             </li>
 
-            <li x-bind="disableNextAndPreviousButtons"
-                class="flex flex-col items-center justify-center w-full p-0 shrink-0 snap-start" role="option">
-                <img class="w-full "src="../assets/images/caroussel/2.jpg"  alt="coing caroussel 2">
-
-                <button x-bind="focusableWhenVisible" class="px-4 py-2 text-sm"
-                    ></button>
-            </li>
+           
 
             <li x-bind="disableNextAndPreviousButtons"
                 class="flex flex-col items-center justify-center w-full p-0 shrink-0 snap-start" role="option">

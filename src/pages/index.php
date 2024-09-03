@@ -14,7 +14,7 @@
     <title>Campagne:Home</title>
 </head>
 
-<body x-data="{ modelOpen: false , showMorevision:false }">
+<body x-data="{ modelOpen: false }">
 
     <!-- Start Banner -->
     <?php include "../sections/banner.php" ?>
@@ -291,7 +291,7 @@
         </div> -->
 
         <div class="px-6 mx-auto max-w-7xl lg:max-w-full lg:px-8">
-            <div class="max-w-2xl mx-auto lg:max-w-full lg:text-center">
+            <div class="max-w-2xl mx-auto lg:max-w-full lg:text-center" >
 
                 <h2 class="mb-4 text-3xl font-bold tracking-tight font-monseratBlack lg:text-6xl text-corn-600 ">
                     <!--dark:text-white-->
@@ -310,23 +310,23 @@
             <div class="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
                 <div class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
-                    <div class="image-wrapper animate-jump-in animate-once">
+                    <div class="image-wrapper toAnimate" id="animate-me">
                         <img src="../assets/images/axe/axe.PNG" loading="lazy" alt="axe 1 programme" />
                     </div>
 
-                    <div class="image-wrapper animate-fade-left animate-once animate-duration-[2000ms] animate-ease-in">
+                    <div class="image-wrapper toAnimate ">
                         <img src="../assets/images/axe/axa1-1.PNG" loading="lazy" alt="IMAE AXE 1" />
                     </div>
-                    <div class="image-wrapper">
+                    <div class="image-wrapper toAnimate">
                         <img src="../assets/images/axe/axe2.PNG" loading="lazy" alt="IMAE AXE 2" />
                     </div>
-                    <div class="image-wrapper">
+                    <div class="image-wrapper toAnimate">
                         <img src="../assets/images/axe/axe2-2.PNG" loading="lazy" alt=" AXE 2" />
                     </div>
-                    <div class="image-wrapper">
+                    <div class="image-wrapper toAnimate">
                         <img src="../assets/images/axe/axe3.PNG" loading="lazy" alt="IMAE AXE 3" />
                     </div>
-                    <div class="image-wrapper">
+                    <div class="image-wrapper toAnimate">
                         <img src="../assets/images/axe/axe3-3.PNG" loading="lazy" alt="IMAE AXE 3" />
                     </div>
 
@@ -716,6 +716,64 @@
 
     <!--TODO MODAL-->
     <div x-show="modelOpen" style="display:none;" class="fixed inset-0 z-50 flex items-center justify-center">
+        <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+        <div class="relative w-full max-w-screen-md m-4 overflow-hidden bg-white rounded-lg shadow-xl"
+            x-transition:enter="transition ease-out duration-300 transform opacity-0 scale-95"
+            x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
+            x-transition:leave="transition ease-in duration-200 transform opacity-100 scale-100"
+            x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" x-cloak>
+            <!-- Modal panel -->
+            <div class="px-6 py-4">
+                <h3 class="text-lg font-medium leading-6 text-gray-900"> Biographie de Diane Ndeuna</h3>
+            </div>
+            <div class="max-w-screen-md p-6 overflow-y-auto prose"
+                style="max-height: 70vh; background-color: #fff; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);">
+
+                <p class="mb-4">Diane Ndeuna est une leader dynamique et expérimentée dans le domaine des
+                    organisations de la société civile, tant au Cameroun qu'à l'international. En tant que
+                    Présidente exécutive de EDEN AFRICA, elle s'est distinguée par son engagement profond pour
+                    l'éducation, l'entrepreneuriat, et l'autonomisation des femmes, tout en portant une vision
+                    stratégique visant à renforcer l'impact des OSC dans l'espace francophone.</p>
+
+                <p class="mb-4">Forte d'une expérience de plus de 20 ans, Diane a collaboré avec de nombreuses
+                    institutions
+                    publiques internationales et nationales, menant des initiatives concrètes pour promouvoir
+                    des causes telles que l'éducation, les droits humains, l'égalité des genres, et le
+                    développement durable. Son parcours témoigne de sa capacité à transformer des défis
+                    complexes en opportunités, à mobiliser des ressources, et à créer des synergies bénéfiques
+                    pour les OSC qu'elle représente.</p>
+                <p class="mb-4">Son leadership et son expertise ont été reconnus au plus haut niveau, notamment
+                    par le
+                    Ministère des Relations Extérieures du Cameroun, qui l'a nommée membre du Conseil
+                    Scientifique de la 44ème Conférence Ministérielle de la Francophonie en 2023. À cette
+                    occasion, elle a joué un rôle clé en facilitant les invitations pour les OING/ONG désireuses
+                    de participer à la cérémonie d'ouverture et en organisant le Forum Jeunesse et Société
+                    Civile francophone, rassemblant des participants en présentiel et en distanciel.</p>
+                <p class="mb-4">Parmi ses réalisations notables, Diane a également orchestré l'organisation de
+                    soirées de
+                    réseautage pour renforcer les synergies entre les OSC, participé à des événements
+                    internationaux comme la COP 28, et dirigé des formations en montage de projets et en
+                    recherche de financement pour plus de 60 acteurs de la société civile francophone. Elle a
+                    aussi collaboré étroitement avec l'OIF sur des initiatives telles que la régulation des
+                    plateformes pour l'information comme bien public.</p>
+                <p class="mb-4">Diane Ndeuna incarne un leadership visionnaire et inclusif, déterminé à faire de
+                    la COING une
+                    force motrice pour une Francophonie plus connectée et plus impactante.</p>
+
+            </div>
+            <div class="flex flex-row justify-end gap-4 p-4 px-4 py-3 bg-gray-50 sm:px-6 align-items">
+                <button @click="modelOpen = false" type="button"
+                    class="inline-flex justify-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-lust-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 sm:w-auto sm:text-sm">
+                    Fermer </button>
+            </div>
+        </div>
+    </div>
+    <!--FIN TODO MODAL-->
+
+
+    
+    <!--TODO MODAL-->
+    <div x-show="modelActuOpen" style="display:none;" class="fixed inset-0 z-50 flex items-center justify-center">
         <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
         <div class="relative w-full max-w-screen-md m-4 overflow-hidden bg-white rounded-lg shadow-xl"
             x-transition:enter="transition ease-out duration-300 transform opacity-0 scale-95"
