@@ -299,7 +299,7 @@
                 </h2>
                 <p class="mt-4 text-base font-bold tracking-tight text-blue-700 lg:text-2xl sm:text-xl">Mes priorités
                     reposent sur trois axes principaux </p>
-                <p class="mt-6 text-lg font-semibold leading-8 text-gray-600 lg:text-2xl">J'aspire à contribué à faire
+                <p class="mt-6 text-lg font-semibold leading-8 text-gray-600 lg:text-2xl">J'aspire à contribuer à faire
                     de la COING
                     une force
                     motrice pour la Francophonie, en axant mon action sur trois piliers : Propositions concrètes et
@@ -310,24 +310,24 @@
             <div class="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
                 <div class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 
-                    <div class="image-wrapper">
-                        <img src="../assets/images/axe/axe.PNG" alt="axe 1 programme" />
+                    <div class="image-wrapper animate-jump-in animate-once">
+                        <img src="../assets/images/axe/axe.PNG" loading="lazy" alt="axe 1 programme" />
                     </div>
 
-                    <div class="image-wrapper">
-                        <img src="../assets/images/axe/axa1-1.PNG" alt="IMAE AXE 1" />
+                    <div class="image-wrapper animate-fade-left animate-once animate-duration-[2000ms] animate-ease-in">
+                        <img src="../assets/images/axe/axa1-1.PNG" loading="lazy" alt="IMAE AXE 1" />
                     </div>
                     <div class="image-wrapper">
-                        <img src="../assets/images/axe/axe2.PNG" alt="IMAE AXE 2" />
+                        <img src="../assets/images/axe/axe2.PNG" loading="lazy" alt="IMAE AXE 2" />
                     </div>
                     <div class="image-wrapper">
-                        <img src="../assets/images/axe/axe2-2.PNG" alt=" AXE 2" />
+                        <img src="../assets/images/axe/axe2-2.PNG"  loading="lazy" alt=" AXE 2" />
                     </div>
                     <div class="image-wrapper">
-                        <img src="../assets/images/axe/axe3.PNG" alt="IMAE AXE 3" />
+                        <img src="../assets/images/axe/axe3.PNG" loading="lazy" alt="IMAE AXE 3" />
                     </div>
                     <div class="image-wrapper">
-                        <img src="../assets/images/axe/axe3-3.PNG" alt="IMAE AXE 3" />
+                        <img src="../assets/images/axe/axe3-3.PNG"  loading="lazy" alt="IMAE AXE 3" />
                     </div>
 
 
@@ -355,7 +355,7 @@
                     coopération,
                     de solidarité et de justice, Diane Ndeuna s'engage à défendre les intérêts de la société civile
                     francophone. Elle croit en une Francophonie qui valorise chaque voix et qui agit pour le bien
-                    commun, dans une démarche inclusive et consensuelle.<a class="text-blue-300"
+                    commun, dans une démarche inclusive et consensuelle.<a class="text-blue-300" target="_blank" download
                         href="../assets/files/rapport_acti.pdf">Télécharger le rapport complet</a></p>
             </div>
 
