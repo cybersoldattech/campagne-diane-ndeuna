@@ -102,7 +102,7 @@
                 </li>
 
                 <li  @click="mobileMenuIsOpen =!mobileMenuIsOpen">
-                    <a href="calendar"  target="_blank"
+                    <a href="calendar.php"  target="_blank"
                         class="block py-2 pr-4 pl-3 <?= $currentFile == 'calendar.php' ? 'text-corn-700' : 'text-white' ?> border-b border-corn-300 lg:hover:bg-transparent font-bold lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Calendrier</a><!--dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700-->
                 </li>
                 <li  @click="mobileMenuIsOpen =!mobileMenuIsOpen">

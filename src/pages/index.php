@@ -580,7 +580,7 @@
 
 
     <!--Temoignages -->
-    <section class="py-24 ">
+    <section class="">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="mb-16">
                 <span
@@ -820,8 +820,7 @@
             x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" x-cloak>
             <!-- Modal panel -->
             <div class="px-6 py-4">
-                <h3 class="text-lg font-medium leading-6 text-gray-900"> Actualité : <span class="font-bold"> Lancement de la campagne de
-                        Diane Ndeuna</span></h3>
+                <h3 class="text-lg font-medium leading-6 text-gray-900"> Actualité : <span class="font-bold"> Lancement de la campagne de Diane Ndeuna</span></h3>
             </div>
             <div class="max-w-screen-md p-6 overflow-y-auto prose"
                 style="max-height: 70vh; background-color: #fff; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);">
@@ -833,7 +832,8 @@
                     Conférence Internationale des Organisations Non-Gouvernementales (COING) de l'Organisation
                     Internationale de la Francophonie (OIF), lance officiellement sa campagne. Cet événement, inédit
                     dans l’histoire de la COING, promet d’être un moment fort de réflexion et d'échange autour des défis
-                    et opportunités de la Francophonie.</p>
+                    et opportunités de la Francophonie.
+                </p>
                     <p>
                     Un rendez-vous pour une COING d'impacts et de solidarités
                     Le lancement de la campagne de Diane Ndeuna a lieu lors d’une réunion en ligne interactive, prévue
