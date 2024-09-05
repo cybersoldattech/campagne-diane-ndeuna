@@ -1,10 +1,12 @@
 <?php
+
 $siteName = "Campagne COING Diane NDEUNA";
 $siteTitle = "Campagne COING Diane NDEUNA";
-$siteDescription = " Bienvenue sur le site officiel de la campagne de Diane Ndeuna pour la Présidence de la COING de l’OIF. Ensemble, pour une COING de solutions, unissons nos forces pour une Francophonie plus forte et apaisée.";
-$seoKeyWord = "Campagne COING ";
+$siteDescription = " Bienvenue sur le site officiel de la campagne de Diane NDEUNA pour la Présidence de la COING de l’OIF. Ensemble, pour une COING de solutions, unissons nos forces pour une Francophonie plus forte et apaisée.";
+$seoKeyWord = "Campagne , COING , Eden Africa ";
 $siteLink = "https://dianepourlacoing2024.eden-africa.org";
 $logoPath = "/src/assets/images/logo-eden-africa-01.png";
+
 ?>
 <link rel="icon" type="image/x-icon" href="../assets/images/logo-eden-africa-01.png">
 <meta property="og:site_name" content="<?php echo $siteName; ?>" />
