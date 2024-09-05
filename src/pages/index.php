@@ -64,27 +64,25 @@
 
             </div>
 
-            <div class="relative w-full py-10 lg:mt-0 lg:col-span-5 lg:flex">
+            <div class="relative w-full py-10 lg:mt-0 lg:col-span-5 ">
 
                 <!-- <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image"> -->
-               
-                    <iframe
+
+                <iframe
                     src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
                     title="Présentation de Diane NDEUNA"></iframe>
 
-            
-          
-                    <!-- <iframe
+
+
+                <!-- <iframe
                     src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
                     title="DIANE NDEUNA"></iframe> -->
-                
-                    <iframe src="https://player.vimeo.com/video/1006418097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  class="w-full h-full" title="Reunion de campagne"></iframe>
 
-                   
-                
+
+
+
                 <!-- <div style="padding:75% 0 0 0;position:relative;">
                         <iframe src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  title="eden-africa-coing"></iframe>
                     </div> -->
@@ -104,7 +102,7 @@
     <!-- End Hero -->
 
     <!-- About section -->
-    <div class="relative px-6 mt-48 overflow-hidden bg-white isolate lg:overflow-visible lg:mt-0 lg:px-0">
+    <div class="relative px-6 mt-48 overflow-hidden bg-white isolate lg:overflow-visible lg:mt-60 lg:px-0">
         <div class="absolute inset-0 overflow-hidden -z-10">
             <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
                 aria-hidden="true">
@@ -578,6 +576,37 @@
                         </article>
                     </div>
 
+                    <div class="swiper-slide ">
+
+                        <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
+                            <!--dark:bg-gray-800 dark:border-gray-700-->
+                            <div class="flex items-center justify-between mb-5 text-gray-500">
+                                <span
+                                    class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+                                    Actualité
+                                </span>
+                                <span class="text-sm">03 Septembre 2024</span>
+                            </div>
+                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
+                                <a href="#">Revivez le lancement de la campagne de Diane
+                                </a>
+                            </h2>
+                            <iframe
+                                src="https://player.vimeo.com/video/1006418097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-4"
+                                title="Reunion de campagne"></iframe>
+                            <p class="py-5 font-light text-gray-500 "> Des soutiens et une volonté de Coconstuire
+                                ensemble.
+
+                                Des échanges et contributions parce que chaque voix compte pour bâtir un avenir
+                                durable pour la COING
+                            </p>
+
+                        </article>
+
+
+                    </div>
+
 
 
                 </div>
@@ -831,7 +860,8 @@
             x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" x-cloak>
             <!-- Modal panel -->
             <div class="px-6 py-4">
-                <h3 class="text-lg font-medium leading-6 text-gray-900"> Actualité : <span class="font-bold"> Lancement de la campagne de Diane Ndeuna</span></h3>
+                <h3 class="text-lg font-medium leading-6 text-gray-900"> Actualité : <span class="font-bold"> Lancement
+                        de la campagne de Diane Ndeuna</span></h3>
             </div>
             <div class="max-w-screen-md p-6 overflow-y-auto prose"
                 style="max-height: 70vh; background-color: #fff; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);">
@@ -845,7 +875,7 @@
                     dans l’histoire de la COING, promet d’être un moment fort de réflexion et d'échange autour des défis
                     et opportunités de la Francophonie.
                 </p>
-                    <p>
+                <p>
                     Un rendez-vous pour une COING d'impacts et de solidarités
                     Le lancement de la campagne de Diane Ndeuna a lieu lors d’une réunion en ligne interactive, prévue
                     ce 3 septembre 2024. Cette réunion réunira non seulement les organisations accréditées de la COING,
@@ -853,14 +883,14 @@
                     participé aux activités de réseautage de la Commission D.
                     Date : 3 septembre 2024
                     Heure :</p>
-                    <ul class="font-bold">
-                        <li>* 16h (GMT+1) Afrique Centrale</li>
-                        <li>* 17h (Paris)</li>
-                        <li>* 15h (Dakar)</li>
-                        <li>* 11h (Québec)</li>
-                    </ul>
+                <ul class="font-bold">
+                    <li>* 16h (GMT+1) Afrique Centrale</li>
+                    <li>* 17h (Paris)</li>
+                    <li>* 15h (Dakar)</li>
+                    <li>* 11h (Québec)</li>
+                </ul>
 
-                    <p>
+                <p>
                     Une vision pour une COING plus apaisée et vertueuse
                     Diane Ndeuna présentera sa vision pour une COING rénovée et réinventée, qui repose sur trois piliers
                     stratégiques : la mise en place de propositions concrètes et de nouvelles opportunités, le
@@ -868,18 +898,18 @@
                     société civile francophone. Diane souhaite une COING plus apaisée, où le dialogue prime sur la
                     confrontation, et où les valeurs de solidarité et d'inclusion sont mises en avant.
                     Un engagement pour la transformation
-                    </p>
-              
+                </p>
 
-                   </p>
-                    À travers ce lancement, Diane Ndeuna souhaite engager un dialogue ouvert avec tous les membres de la
-                    COING et au-delà, afin de co-construire une vision partagée. Cet événement marquera le début d'une
-                    série d'échanges ouverts et inclusifs, permettant de recueillir les attentes et les aspirations de
-                    chacun pour l'avenir de la Francophonie.
-                    Pour plus d’informations, pour obtenir les détails d'accès à la réunion Zoom, ou pour organiser une
-                    interview avec Diane Ndeuna, veuillez nous contacter à l’adresse suivante : [adresse e-mail] ou
-                    [numéro de téléphone].</p>
-                    Ensemble, pour une COING d'impacts et de solidarités.
+
+                </p>
+                À travers ce lancement, Diane Ndeuna souhaite engager un dialogue ouvert avec tous les membres de la
+                COING et au-delà, afin de co-construire une vision partagée. Cet événement marquera le début d'une
+                série d'échanges ouverts et inclusifs, permettant de recueillir les attentes et les aspirations de
+                chacun pour l'avenir de la Francophonie.
+                Pour plus d’informations, pour obtenir les détails d'accès à la réunion Zoom, ou pour organiser une
+                interview avec Diane Ndeuna, veuillez nous contacter à l’adresse suivante : [adresse e-mail] ou
+                [numéro de téléphone].</p>
+                Ensemble, pour une COING d'impacts et de solidarités.
                 </p>
 
 
