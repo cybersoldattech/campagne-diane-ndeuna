@@ -67,12 +67,24 @@
             <div class="relative w-full py-10 lg:mt-0 lg:col-span-5 lg:flex">
 
                 <!-- <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image"> -->
-
-                <iframe
+               
+                    <iframe
                     src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
-                    title="DIANE NDEUNA"></iframe>
+                    title="Présentation de Diane NDEUNA"></iframe>
 
+            
+          
+                    <!-- <iframe
+                    src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
+                    title="DIANE NDEUNA"></iframe> -->
+                
+                    <iframe src="https://player.vimeo.com/video/1006418097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  class="w-full h-full" title="Reunion de campagne"></iframe>
+
+                   
+                
                 <!-- <div style="padding:75% 0 0 0;position:relative;">
                         <iframe src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  title="eden-africa-coing"></iframe>
                     </div> -->
@@ -92,8 +104,7 @@
     <!-- End Hero -->
 
     <!-- About section -->
-
-    <div class="relative px-6 overflow-hidden bg-white isolate lg:overflow-visible lg:px-0">
+    <div class="relative px-6 mt-48 overflow-hidden bg-white isolate lg:overflow-visible lg:mt-0 lg:px-0">
         <div class="absolute inset-0 overflow-hidden -z-10">
             <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
                 aria-hidden="true">
