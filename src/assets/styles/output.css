@@ -2106,6 +2106,10 @@ html {
     display: block;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:h-24 {
     height: 6rem;
   }

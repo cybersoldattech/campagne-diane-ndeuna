@@ -65,27 +65,11 @@
             </div>
 
             <div class="relative w-full py-10 lg:mt-0 lg:col-span-5 ">
-
-                <!-- <img src="../assets/images/hero/1.jpg" loading="lazy" class="rounded-md" alt="diane image"> -->
-
                 <iframe
                     src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
                     title="Présentation de Diane NDEUNA"></iframe>
 
-
-
-                <!-- <iframe
-                    src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full"
-                    title="DIANE NDEUNA"></iframe> -->
-
-
-
-
-                <!-- <div style="padding:75% 0 0 0;position:relative;">
-                        <iframe src="https://player.vimeo.com/video/1005542095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"  title="eden-africa-coing"></iframe>
-                    </div> -->
             </div>
 
 
@@ -536,9 +520,9 @@
                     Diane Ndeuna.</p>
             </div>
 
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+            <div class=" swiper mySwiper">
+                <div class=" swiper-wrapper">
+                    <div class=" swiper-slide">
                         <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
                             <!--dark:bg-gray-800 dark:border-gray-700-->
                             <div class="flex items-center justify-between mb-5 text-gray-500">
@@ -593,8 +577,8 @@
                             </h2>
                             <iframe
                                 src="https://player.vimeo.com/video/1006418097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-4"
-                                title="Reunion de campagne"></iframe>
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                                class="w-full h-full mb-4" title="Reunion de campagne"></iframe>
                             <p class="py-5 font-light text-gray-500 "> Des soutiens et une volonté de Coconstuire
                                 ensemble.
 
@@ -611,6 +595,36 @@
 
                 </div>
                 <div class="swiper-pagination"></div>
+            </div>
+
+            <!--Mobile show-->
+            <div class="grid grid-cols-1 lg:hidden md:hidden">
+                <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
+                    <!--dark:bg-gray-800 dark:border-gray-700-->
+                    <div class="flex items-center justify-between mb-5 text-gray-500">
+                        <span
+                            class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded "><!--dark:bg-primary-200 dark:text-primary-800-->
+                            Actualité
+                        </span>
+                        <span class="text-sm">03 Septembre 2024</span>
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 "><!--dark:text-white-->
+                        <a href="#">Revivez le lancement de la campagne de Diane
+                        </a>
+                    </h2>
+                    <iframe
+                        src="https://player.vimeo.com/video/1006418097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-4"
+                        title="Reunion de campagne"></iframe>
+                    <p class="py-5 font-light text-gray-500 "> Des soutiens et une volonté de Coconstuire
+                        ensemble.
+
+                        Des échanges et contributions parce que chaque voix compte pour bâtir un avenir
+                        durable pour la COING
+                    </p>
+
+                </article>
+
             </div>
 
         </div>
