@@ -597,7 +597,7 @@
             </div>
 
             <!--Mobile show-->
-            <div class="grid grid-cols-1 lg:hidden md:hidden">
+            <div class="lg:hidden md:hidden">
                 <article class="p-6 bg-white border border-gray-200 rounded-lg shadow-md ">
                     <!--dark:bg-gray-800 dark:border-gray-700-->
                     <div class="flex items-center justify-between mb-5 text-gray-500">
@@ -611,11 +611,12 @@
                         <a href="#">Revivez le lancement de la campagne de Diane
                         </a>
                     </h2>
+              
                     <iframe
                         src="https://player.vimeo.com/video/1006418097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-4"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-2"
                         title="Reunion de campagne"></iframe>
-                    <p class="py-5 font-light text-gray-500 "> Des soutiens et une volonté de Coconstuire
+                        <p class="font-light text-gray-500 "> Des soutiens et une volonté de Coconstuire
                         ensemble.
 
                         Des échanges et contributions parce que chaque voix compte pour bâtir un avenir
@@ -635,7 +636,7 @@
     <!--Temoignages -->
     <section class="">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="mb-16">
+            <div class="">
                 <span
                     class="block mb-2 text-3xl font-bold text-center text-violetEggplant-600 lg:text-6xl font-monseratBlack">Témoignages
                 </span>
@@ -656,7 +657,7 @@
                     </div>
                     <!-- End Col -->
 
-                    <div>
+                    <div class="">
                         <!-- Blockquote -->
                         <blockquote class="relative">
                             <svg class="absolute top-0 text-gray-200 transform -translate-x-8 -translate-y-4 start-0 size-24"
