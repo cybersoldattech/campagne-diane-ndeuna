@@ -45,8 +45,7 @@
                     <!--dark:text-gray-400-->
                     Bienvenue sur le site officiel de la campagne de Diane Ndeuna pour la Présidence de la COING de
                     l’OIF. Ensemble, pour une COING de solutions, unissons nos forces pour une Francophonie plus forte
-                    et
-                    apaisée.
+                    et apaisée.
                 </p>
                 <a href="index.php#actu"
                     class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">Actualités
