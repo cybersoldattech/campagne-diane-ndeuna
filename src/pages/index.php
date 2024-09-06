@@ -921,8 +921,8 @@
                 série d'échanges ouverts et inclusifs, permettant de recueillir les attentes et les aspirations de
                 chacun pour l'avenir de la Francophonie.
                 Pour plus d’informations, pour obtenir les détails d'accès à la réunion Zoom, ou pour organiser une
-                interview avec Diane Ndeuna, veuillez nous contacter à l’adresse suivante : [adresse e-mail] ou
-                [numéro de téléphone].</p>
+                interview avec Diane Ndeuna, veuillez nous contacter à l’adresse suivante : dianendeuna.coing@eden-africa.org. ou
+                +237 696 03 52 59.</p>
                 Ensemble, pour une COING d'impacts et de solidarités.
                 </p>
 
