@@ -611,12 +611,12 @@
                         <a href="#">Revivez le lancement de la campagne de Diane
                         </a>
                     </h2>
-              
+
                     <iframe
                         src="https://player.vimeo.com/video/1006418097?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                         allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-2"
                         title="Reunion de campagne"></iframe>
-                        <p class="font-light text-gray-500 "> Des soutiens et une volonté de Coconstuire
+                    <p class="font-light text-gray-500 "> Des soutiens et une volonté de Coconstuire
                         ensemble.
 
                         Des échanges et contributions parce que chaque voix compte pour bâtir un avenir
@@ -796,6 +796,27 @@
                 <!-- End Grid -->
             </div>
 
+            <div class="grid max-w-4xl grid-cols-1 mx-auto lg:grid-cols-2">
+
+                <div class="my-8">
+                    <p class="mb-2 font-semibold text-center text-gray-800">Pr NDIORO NDIAYE</p>
+                    <iframe
+                        src="https://player.vimeo.com/video/1007655979?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-2"
+                        title="PR NDIORO NDIAYE">
+                    </iframe>
+                </div>
+                <div class="my-8">
+                    <p class="mb-2 font-semibold text-center text-gray-800">Mr Stéphane POUFFARY</p>
+                    <iframe
+                        src="https://player.vimeo.com/video/1007656453?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write" class="w-full h-full mb-2"
+                        title="Mr Stéphane POUFFARY">
+                    </iframe>
+                </div>
+
+            </div>
+
         </div>
     </section>
     <!-- End Testimonials -->
@@ -896,7 +917,8 @@
                     mais aussi les partenaires stratégiques et des organisations non accréditées qui ont activement
                     participé aux activités de réseautage de la Commission D.
                     Date : 3 septembre 2024
-                    Heure :</p>
+                    Heure :
+                </p>
                 <ul class="font-bold">
                     <li>* 16h (GMT+1) Afrique Centrale</li>
                     <li>* 17h (Paris)</li>
@@ -915,16 +937,17 @@
                 </p>
 
 
-                </p>
-                À travers ce lancement, Diane Ndeuna souhaite engager un dialogue ouvert avec tous les membres de la
-                COING et au-delà, afin de co-construire une vision partagée. Cet événement marquera le début d'une
-                série d'échanges ouverts et inclusifs, permettant de recueillir les attentes et les aspirations de
-                chacun pour l'avenir de la Francophonie.
-                Pour plus d’informations, pour obtenir les détails d'accès à la réunion Zoom, ou pour organiser une
-                interview avec Diane Ndeuna, veuillez nous contacter à l’adresse suivante : dianendeuna.coing@eden-africa.org. ou
-                +237 696 03 52 59.</p>
+                <p>
+                    À travers ce lancement, Diane Ndeuna souhaite engager un dialogue ouvert avec tous les membres de la
+                    COING et au-delà, afin de co-construire une vision partagée. Cet événement marquera le début d'une
+                    série d'échanges ouverts et inclusifs, permettant de recueillir les attentes et les aspirations de
+                    chacun pour l'avenir de la Francophonie.
+                    Pour plus d’informations, pour obtenir les détails d'accès à la réunion Zoom, ou pour organiser une
+                    interview avec Diane Ndeuna, veuillez nous contacter à l’adresse suivante :
+                    dianendeuna.coing@eden-africa.org. ou
+                    +237 696 03 52 59.</p>
                 Ensemble, pour une COING d'impacts et de solidarités.
-                </p>
+
 
 
             </div>
